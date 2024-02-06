@@ -1,6 +1,7 @@
 ---
 import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
+import Counter from "../components/Counter.svelte";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -61,6 +62,7 @@ import Layout from "../layouts/Layout.astro";
         body="Come say hi to our amazing Discord community. ❤️"
       />
     </ul>
+    <Counter client:visible />
   </main>
 </Layout>
 
