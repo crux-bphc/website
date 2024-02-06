@@ -2,7 +2,6 @@
   "root": true,
   "extends": [
     "plugin:astro/recommended",
-    "plugin:astro/jsx-a11y-recommended",
     "airbnb-base",
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/strict",
