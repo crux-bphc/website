@@ -1,7 +1,8 @@
 {
-  "name": "",
+  "name": "crux-website",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@8.15.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,12 +11,31 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.4.1",
     "@astrojs/svelte": "^5.0.3",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.3.2",
     "svelte": "^4.2.10",
+    "astro": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-astro": "0.29.1",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-regexp": "2.1.1",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-tailwindcss": "3.13.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "typescript": "5.2.2"
   }
 }
