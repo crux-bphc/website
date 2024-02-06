@@ -9,12 +9,13 @@
     "plugin:eslint-comments/recommended",
     "plugin:regexp/recommended",
     "plugin:tailwindcss/recommended",
-    "prettier"
+    "plugin:svelte/recommended",
+    "plugin:prettier/recommended"
   ],
   "plugins": ["simple-import-sort"],
   "parserOptions": {
     "project": true,
-    "extraFileExtensions": [".astro"]
+    "extraFileExtensions": [".astro", ".svelte"]
   },
   "settings": {
     "import/resolver": {
@@ -63,11 +64,20 @@
     {
       "files": "*.astro",
       "parser": "astro-eslint-parser",
+      // Parse the `<script>` in `.astro` as TypeScript by adding the following configuration.
       "parserOptions": {
         "parser": "@typescript-eslint/parser"
       },
       "rules": {
         "import/no-unresolved": "off"
+      }
+    },
+    {
+      "files": ["*.svelte"],
+      "parser": "svelte-eslint-parser",
+      // Parse the `<script>` in `.svelte` as TypeScript by adding the following configuration.
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser"
       }
     }
   ]
