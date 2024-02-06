@@ -10,6 +10,7 @@ The new repo for the cruX website
 2. Activate Node v20.10.0 using `nvm use v20.10.0`
 3. Install pnpm, using `npm i -g pnpm`
 4. Install the packages in this repo by running `pnpm i` in the the root of this repository.
+5. If you're using VSCode, I recommend installing the Recommended extensions. You can view them [here](.vscode/extensions.json)
 
 ## Getting it up and running
 
