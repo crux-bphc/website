@@ -10,7 +10,7 @@
     "plugin:regexp/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:svelte/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
   "plugins": ["simple-import-sort"],
   "parserOptions": {
