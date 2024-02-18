@@ -1,0 +1,40 @@
+---
+import Badge from "./Badge.astro";
+
+interface Props {
+  imageURL: string;
+  name: string;
+  title: string;
+  highlightedBadges: string[];
+  badges: string[];
+  href: string;
+}
+
+const { imageURL, href, name, title, highlightedBadges, badges } = Astro.props;
+---
+
+<div
+  class="w-96 rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground shadow-lg"
+>
+  <a href={href} class="flex flex-col items-center pt-8">
+    <img src={imageURL} class="w-48 rounded-full" />
+    <div class="flex h-56 flex-col items-center justify-between">
+      <div class="flex flex-col items-center py-6 pb-6">
+        <span class="text-center text-3xl font-bold">
+          {name}
+        </span>
+        <p class="pt-1 text-xl">
+          {title}
+        </p>
+      </div>
+      <div class="flex space-x-4 pb-8">
+        {
+          highlightedBadges.map((badge) => (
+            <Badge style="bg-orange text-orange-foreground" text={badge} />
+          ))
+        }
+        {badges.map((badge) => <Badge style="bg-badge" text={badge} />)}
+      </div>
+    </div>
+  </a>
+</div>
