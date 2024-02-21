@@ -1,6 +1,7 @@
 ---
 import Counter from "../components/Counter.svelte";
 import MemberCard from "../components/MemberCard.astro";
+import YearIndicator from "../components/YearIndicator.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -24,6 +25,9 @@ import Layout from "../layouts/Layout.astro";
         badges={["web dev", "automation"]}
         imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
       />
+    </div>
+    <div class="flex px-8">
+      <YearIndicator year="2021" />
     </div>
   </main>
 </Layout>
