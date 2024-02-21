@@ -1,11 +1,12 @@
 ---
 import Counter from "../components/Counter.svelte";
+import HomeCard from "../components/HomeCard.astro";
 import MemberCard from "../components/MemberCard.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="h-screen bg-background">
+  <main class="h-fit bg-background">
     <Counter client:visible />
     <div class="flex space-x-8 p-8">
       <MemberCard
@@ -24,6 +25,9 @@ import Layout from "../layouts/Layout.astro";
         badges={["web dev", "automation"]}
         imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
       />
+    </div>
+    <div>
+      <HomeCard />
     </div>
   </main>
 </Layout>
