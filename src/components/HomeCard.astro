@@ -30,7 +30,7 @@ const { imageURL, icons } = Astro.props;
         {
           icons.map((icon) => (
             <a href={icon.href} target="_blank">
-              <div class="rounded-full hover:bg-background">
+              <div class="rounded-full fill-foreground-muted hover:bg-background">
                 <Fragment set:html={icon.svg} />
               </div>
             </a>
