@@ -1,13 +1,18 @@
 ---
+interface Props {
+  imageURL: string;
+  icons: { svg: string; href: string }[];
+}
 
+const { imageURL, icons } = Astro.props;
 ---
 
 <div class="flex items-center justify-center">
   <div
-    class="flex h-fit w-5/6 flex-row items-center justify-between rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% py-32 text-foreground shadow-lg"
+    class="flex h-fit w-5/6 flex-row items-center justify-between rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground shadow-lg backdrop-blur"
   >
     <div
-      class="flex w-1/2 flex-col items-start justify-between space-y-4 pl-28"
+      class="flex w-1/2 flex-col items-start justify-between space-y-4 pb-24 pl-28 pt-32"
     >
       <div class="pl-8">
         <span class="text-5xl font-bold">Meet the team</span>
@@ -18,9 +23,20 @@
       </p>
     </div>
     <div
-      class="flex w-1/2 flex-col items-center justify-between space-y-4 px-20"
+      class="flex w-1/2 flex-col items-end justify-between space-y-8 px-20 pb-12 pt-32"
     >
-      <img src={"https://dummyimage.com/16:10x1200"} class="h-4/5 rounded-xl" />
+      <img src={imageURL} class="h-4/5 rounded-xl" />
+      <div class="flex flex-row items-end justify-end space-x-8 pr-4">
+        {
+          icons.map((icon) => (
+            <a href={icon.href} target="_blank">
+              <div class="rounded-full hover:bg-background">
+                <Fragment set:html={icon.svg} />
+              </div>
+            </a>
+          ))
+        }
+      </div>
     </div>
   </div>
 </div>
