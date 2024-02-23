@@ -9,7 +9,7 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="h-fit bg-background">
+  <main class="h-fit w-fit bg-background">
     <Counter client:visible />
     <div class="flex space-x-8 p-8">
       <MemberCard
@@ -29,7 +29,7 @@ import Layout from "../layouts/Layout.astro";
         imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
       />
     </div>
-    <div>
+    <div class="flex space-x-8 p-8">
       <HomeCard
         imageURL="https://dummyimage.com/16:10x1200"
         icons={[
