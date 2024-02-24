@@ -1,12 +1,16 @@
 ---
+import GithubIcon from "../../public/github.svg?raw";
+import InstagramIcon from "../../public/instagram.svg?raw";
+import LinkedInIcon from "../../public/linkedin.svg?raw";
 import Counter from "../components/Counter.svelte";
+import HomeCard from "../components/HomeCard.astro";
 import MemberCard from "../components/MemberCard.astro";
 import YearIndicator from "../components/YearIndicator.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="h-screen bg-background">
+  <main class="h-fit w-fit bg-background">
     <Counter client:visible />
     <div class="flex space-x-8 p-8">
       <MemberCard
@@ -26,6 +30,18 @@ import Layout from "../layouts/Layout.astro";
         imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
       />
     </div>
+    <div class="flex space-x-8 p-8">
+      <HomeCard
+        imageURL="/crux.png"
+        icons={[
+          { svg: GithubIcon, href: "https://github.com/crux-bphc" },
+          { svg: InstagramIcon, href: "https://www.instagram.com/cruxbphc/" },
+          {
+            svg: LinkedInIcon,
+            href: "https://www.linkedin.com/company/crux-bphc?originalSubdomain=in",
+          },
+        ]}
+      />
     <div class="flex px-8">
       <YearIndicator year="2021" />
     </div>
