@@ -1,0 +1,19 @@
+---
+interface Props {
+  year: string;
+}
+
+const { year } = Astro.props;
+
+const digits = year.split("");
+---
+
+<div class="flex flex-row items-center justify-between">
+  {
+    digits.map((digit) => (
+      <div class="mx-1 rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% px-2 py-1 text-8xl text-foreground shadow-lg">
+        <span>{digit}</span>
+      </div>
+    ))
+  }
+</div>
