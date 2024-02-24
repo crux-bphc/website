@@ -3,6 +3,7 @@ interface Props {
   imageURL: string;
   icons: { svg: string; href: string }[];
 }
+import { Image } from "astro:assets";
 
 const { imageURL, icons } = Astro.props;
 ---
@@ -17,21 +18,34 @@ const { imageURL, icons } = Astro.props;
       <div class="lg:pl-8">
         <span class="text-5xl font-bold lg:text-5xl">Meet the team</span>
       </div>
-      <img src={imageURL} class="flex rounded-xl lg:hidden" />
+      <Image
+        src={imageURL}
+        class="flex rounded-xl lg:hidden"
+        alt="A picture of our members."
+        width="1920"
+        height="1200"
+      />
+
       <p class="text-wrap text-xl">
         Soumitra, Kovid, Shreyash, Arunachala, Mudit, Varun, Sarthak, Anurav,
         more...
       </p>
     </div>
     <div
-      class="flex w-1/2 flex-col items-end justify-center px-20 py-12 lg:space-y-8 lg:pb-12 lg:pt-32"
+      class="flex w-full flex-col items-end justify-center px-20 py-12 lg:space-y-8 lg:pb-12 lg:pt-32"
     >
-      <img src={imageURL} class="hidden h-4/5 rounded-xl lg:flex" />
+      <Image
+        src={imageURL}
+        class="hidden h-4/5 rounded-xl lg:flex"
+        alt="A picture of our members."
+        width="1920"
+        height="1200"
+      />
       <div class="flex flex-row items-end justify-end space-x-8 lg:pr-4">
         {
           icons.map((icon) => (
             <a href={icon.href} target="_blank">
-              <div class="rounded-full fill-foreground-muted hover:bg-background">
+              <div class="rounded-full fill-foreground-muted transition duration-200 ease-in-out hover:fill-primary">
                 <Fragment set:html={icon.svg} />
               </div>
             </a>
