@@ -1,0 +1,43 @@
+---
+import { Image } from "astro:assets";
+
+import Badge from "./Badge.astro";
+
+interface Props {
+  imageURL: string;
+  href: string;
+  people: number;
+}
+
+const { imageURL, href, people } = Astro.props;
+
+const containerStyles =
+  "w-[42%] flex flex-row md:flex-col md:w-[18vw] m-4 md:m-5 ";
+---
+
+<div
+  class=`${containerStyles} items-center justify-center rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground shadow-lg`
+>
+  <Image
+    src={imageURL}
+    class="rounded-3xl py-8 pl-8 md:px-0"
+    alt="Our Achievement"
+    width={200}
+    height={200}
+    loading="lazy"
+  />
+
+  <div class="p-4 md:px-4 md:pt-0">
+    <p class="flex justify-center text-6xl">
+      {people}
+    </p>
+    <p class="pb-4 pt-1">
+      <a href={href} target="_blank">
+        <Badge
+          style="bg-badge text-purple rounded-3xl shadow-xl font-mono"
+          text="more"
+        />
+      </a>
+    </p>
+  </div>
+</div>
