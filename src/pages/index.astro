@@ -2,7 +2,7 @@
 import GithubIcon from "../../public/github.svg?raw";
 import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
-import AchievementCardWithoutLogo from "../components/AchievementCardWithoutLogo.astro";
+import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
 import Counter from "../components/Counter.svelte";
 import HomeCard from "../components/HomeCard.astro";
 import MemberCard from "../components/MemberCard.astro";
@@ -45,11 +45,7 @@ import Layout from "../layouts/Layout.astro";
       />
     </div>
     <div>
-      <AchievementCardWithoutLogo
-        imageURL="/gsoc.png"
-        href="/test"
-        people={3}
-      />
+      <AchievementCardWithLogo imageURL="/gsoc.png" href="/test" people={3} />
     </div>
     <div class="flex px-8">
       <YearIndicator year="2021" />
