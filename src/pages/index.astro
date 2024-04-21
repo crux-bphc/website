@@ -2,6 +2,7 @@
 import GithubIcon from "../../public/github.svg?raw";
 import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
+import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
 import Counter from "../components/Counter.svelte";
 import HomeCard from "../components/HomeCard.astro";
 import MemberCard from "../components/MemberCard.astro";
@@ -10,7 +11,7 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="h-fit w-fit bg-background">
+  <main class="size-fit bg-background">
     <Counter client:visible />
     <div class="flex space-x-8 p-8">
       <MemberCard
@@ -42,6 +43,9 @@ import Layout from "../layouts/Layout.astro";
           },
         ]}
       />
+    </div>
+    <div>
+      <AchievementCardWithLogo imageURL="/gsoc.png" href="/test" people={3} />
     </div>
     <div class="flex px-8">
       <YearIndicator year="2021" />
