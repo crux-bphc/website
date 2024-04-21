@@ -12,7 +12,7 @@ interface Props {
 const { imageURL, href, people } = Astro.props;
 
 const containerStyles =
-  "w-[42%] flex flex-row md:flex-col md:w-[18vw] m-4 md:m-5 ";
+  "w-[88vw] flex flex-row lg:flex-col lg:w-[18vw] m-4 lg:m-5 ";
 ---
 
 <div
@@ -20,14 +20,14 @@ const containerStyles =
 >
   <Image
     src={imageURL}
-    class="rounded-3xl py-8 pl-8 md:px-0"
+    class="rounded-3xl py-8 pl-8 lg:px-4"
     alt="Our Achievement"
     width={200}
     height={200}
     loading="lazy"
   />
 
-  <div class="p-4 md:px-4 md:pt-0">
+  <div class="p-4 lg:px-4 lg:pt-0">
     <p class="flex justify-center text-6xl">
       {people}
     </p>
