@@ -2,6 +2,7 @@
 import GithubIcon from "../../public/github.svg?raw";
 import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
+import AchievementCard from "../components/AchievementCard.astro";
 import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
 import Counter from "../components/Counter.svelte";
 import HomeCard from "../components/HomeCard.astro";
@@ -46,6 +47,11 @@ import Layout from "../layouts/Layout.astro";
     </div>
     <div>
       <AchievementCardWithLogo imageURL="/gsoc.png" href="/test" people={3} />
+      <AchievementCard
+        href="/test"
+        title={"GOOGLE GIRLS HACKATHON"}
+        description="Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)"
+      />
     </div>
     <div class="flex px-8">
       <YearIndicator year="2021" />

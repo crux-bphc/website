@@ -1,0 +1,43 @@
+---
+import Badge from "./Badge.astro";
+
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+}
+
+const { href, title, description } = Astro.props;
+
+const containerStyles =
+  "w-[88vw] flex flex-col lg:flex-row lg:w-[44vw] h-fit lg:h-fit p-6 m-4 lg:m-5 ";
+---
+
+<div
+  class=`${containerStyles} justify-between rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground shadow-lg`
+>
+  <div class="flex flex-col items-center justify-center lg:w-1/2 lg:pt-4">
+    <p class="pb-4 text-center text-3xl">
+      {title}
+    </p>
+    <a href={href} target="_blank" class="hidden lg:inline">
+      <Badge
+        style="bg-badge text-2xl mt-4 text-purple rounded-3xl shadow-xl"
+        text="more"
+      />
+    </a>
+  </div>
+  <div class="flex items-center justify-center px-6 py-2 lg:w-1/2">
+    <p class="text-md">
+      {description}
+    </p>
+  </div>
+  <div class="flex flex-col items-center justify-center pt-2 lg:hidden">
+    <a href={href} target="_blank" class="">
+      <Badge
+        style="bg-badge text-2xl mt-4 text-purple rounded-3xl shadow-xl"
+        text="more"
+      />
+    </a>
+  </div>
+</div>
