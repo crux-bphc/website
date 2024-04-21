@@ -1,38 +1,41 @@
 ---
+import { Image } from "astro:assets";
+
 interface Props {
   imageURL: string;
   icons: { svg: string; href: string }[];
 }
-import { Image } from "astro:assets";
 
 const { imageURL, icons } = Astro.props;
 ---
 
 <div class="flex items-center justify-center">
   <div
-    class="flex h-fit w-5/6 flex-col items-center justify-between rounded-3xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground shadow-lg backdrop-blur lg:flex-row lg:rounded-xl"
+    class="flex h-fit w-[88vw] flex-col items-center justify-between rounded-3xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground shadow-lg backdrop-blur lg:flex-row lg:rounded-xl"
   >
     <div
-      class="flex w-4/5 flex-col items-center justify-between space-y-16 px-4 pt-32 lg:w-1/2 lg:items-start lg:space-y-4 lg:pb-24 lg:pl-28"
+      class="flex flex-col items-center justify-between space-y-16 px-4 pt-32 lg:w-1/2 lg:items-start lg:space-y-4 lg:pb-24 lg:pl-28"
     >
       <div class="lg:pl-8">
-        <span class="text-5xl font-bold lg:text-5xl">Meet the team</span>
+        <span class="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-5xl"
+          >Meet the team</span
+        >
       </div>
       <Image
         src={imageURL}
-        class="flex rounded-xl lg:hidden"
+        class="flex w-11/12 rounded-xl lg:hidden"
         alt="A picture of our members."
         width="1920"
         height="1200"
       />
 
-      <p class="text-wrap text-xl">
+      <p class="text-wrap px-8 text-center text-lg md:text-xl">
         Soumitra, Kovid, Shreyash, Arunachala, Mudit, Varun, Sarthak, Anurav,
         more...
       </p>
     </div>
     <div
-      class="flex lg:w-1/2 w-full flex-col items-end justify-center px-20 py-12 lg:space-y-8 lg:pb-12 lg:pt-32"
+      class="flex w-full flex-col items-end justify-center px-20 py-12 lg:w-1/2 lg:space-y-8 lg:pb-12 lg:pt-32"
     >
       <Image
         src={imageURL}
@@ -41,11 +44,13 @@ const { imageURL, icons } = Astro.props;
         width="1920"
         height="1200"
       />
-      <div class="flex flex-row items-end justify-end space-x-8 lg:pr-4">
+      <div
+        class="flex flex-row items-center justify-end space-x-8 lg:items-end lg:pr-4"
+      >
         {
           icons.map((icon) => (
             <a href={icon.href} target="_blank">
-              <div class="rounded-full fill-foreground-muted transition duration-200 ease-in-out hover:fill-primary">
+              <div class="rounded-full fill-foreground-muted transition duration-200 ease-in-out hover:fill-primary lg:w-full">
                 <Fragment set:html={icon.svg} />
               </div>
             </a>
