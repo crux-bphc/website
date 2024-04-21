@@ -7,4 +7,7 @@ interface Props {
 const { style, text } = Astro.props;
 ---
 
-<span class=`rounded-lg font-sans px-4 text-md py-1 ${style}`>{text}</span>
+<span
+  class=`rounded-lg font-sans sm:px-4 px-3 sm:text-md text-sm sm:py-1 py-[0.125em] ${style}`
+  >{text}</span
+>
