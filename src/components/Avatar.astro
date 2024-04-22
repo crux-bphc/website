@@ -1,0 +1,10 @@
+---
+interface Props {
+  imageURL: string;
+  style: string;
+}
+
+const { imageURL, style } = Astro.props;
+---
+
+<img src={imageURL} class=`rounded-full ${style}` />

@@ -4,6 +4,7 @@ import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
 import AchievementCard from "../components/AchievementCard.astro";
 import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
+import Carousel from "../components/Carousel.svelte";
 import Counter from "../components/Counter.svelte";
 import HomeCard from "../components/HomeCard.astro";
 import MemberCard from "../components/MemberCard.astro";
@@ -12,9 +13,11 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="size-full bg-background">
+  <main class="w-full bg-background">
     <Counter client:visible />
-    <div class="flex space-x-8 p-8">
+    <div
+      class="flex flex-col space-y-4 p-8 lg:flex-row lg:space-x-8 lg:space-y-0"
+    >
       <MemberCard
         href="/test"
         name="Soumitra Shewale"
