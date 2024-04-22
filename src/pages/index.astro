@@ -6,6 +6,7 @@ import AchievementCard from "../components/AchievementCard.astro";
 import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
 import Carousel from "../components/Carousel.svelte";
 import Counter from "../components/Counter.svelte";
+import MemberCardTabs from "../components/MemberCardTabs.svelte";
 import HomeCard from "../components/HomeCard.astro";
 import MemberCard from "../components/MemberCard.astro";
 import YearIndicator from "../components/YearIndicator.astro";
@@ -15,6 +16,191 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="Welcome to Astro.">
   <main class="w-full bg-background">
     <Counter client:visible />
+    <div class="flex w-full justify-center">
+      <MemberCardTabs client:visible>
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="members"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Soumitra Shewale"
+            title="Secretary"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
+            slot="alumni"
+          />
+          <MemberCard
+            href="/test"
+            name="Dharanikanth Reddy Yerasi"
+            title="Member"
+            highlightedBadges={["2021"]}
+            badges={["web dev", "automation"]}
+            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
+            slot="alumni"
+          />
+        </div>
+      </MemberCardTabs>
+    </div>
     <Carousel
       client:visible
       imageURLs={[
