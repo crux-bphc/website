@@ -1,4 +1,5 @@
 ---
+import Avatar from "./Avatar.astro";
 import Badge from "./Badge.astro";
 
 interface Props {
@@ -20,27 +21,34 @@ const { imageURL, href, name, title, highlightedBadges, badges } = Astro.props;
     href={href}
     class="flex flex-row-reverse items-center justify-between p-6 lg:flex-col"
   >
-    <img src={imageURL} class="size-24 rounded-full sm:size-36 md:size-48" />
+    <Avatar imageURL=`${imageURL}` style="size-16 sm:size-36 md:size-48" />
     <div
       class="flex flex-col lg:h-48 lg:items-center lg:justify-between lg:pt-4"
     >
       <div class="flex flex-col pb-6 lg:items-center">
         <span
-          class="text-lg font-bold sm:text-2xl md:text-4xl lg:text-center lg:text-3xl"
+          class="text-md font-bold sm:text-2xl md:text-4xl lg:text-center lg:text-3xl"
         >
           {name}
         </span>
-        <p class="text-md pt-1 sm:text-xl md:text-2xl lg:text-xl">
+        <p class="pt-1 text-sm sm:text-xl md:text-2xl lg:text-xl">
           {title}
         </p>
       </div>
-      <div class="flex space-x-2 lg:space-x-4">
+      <div class="flex flex-wrap">
         {
           highlightedBadges.map((badge) => (
-            <Badge style="bg-orange text-orange-foreground" text={badge} />
+            <Badge
+              style="bg-orange text-orange-foreground mx-1 m-1 lg:mx-2"
+              text={badge}
+            />
           ))
         }
-        {badges.map((badge) => <Badge style="bg-badge" text={badge} />)}
+        {
+          badges.map((badge) => (
+            <Badge style="bg-badge mx-1 lg:mx-2 m-1" text={badge} />
+          ))
+        }
       </div>
     </div>
   </a>
