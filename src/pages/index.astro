@@ -15,6 +15,24 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="Welcome to Astro.">
   <main class="w-full bg-background">
     <Counter client:visible />
+    <Carousel
+      client:visible
+      imageURLs={[
+        "https://avatars.githubusercontent.com/u/36817910?v=4",
+        "https://avatars.githubusercontent.com/u/77240155?v=4",
+        "https://avatars.githubusercontent.com/u/33770878?v=4",
+        "https://avatars.githubusercontent.com/u/116057817?v=4",
+        "https://avatars.githubusercontent.com/u/65390427?v=4",
+        "https://avatars.githubusercontent.com/u/104909040?v=4",
+        "https://avatars.githubusercontent.com/u/60971499?v=4",
+        "https://avatars.githubusercontent.com/u/112821423?v=4",
+      ]}
+      size={8}
+      smallSize={12}
+      mediumSize={14}
+      style="size-8 sm:size-12 md:size-14"
+      maxElements={4}
+    />
     <div
       class="flex flex-col space-y-4 p-8 lg:flex-row lg:space-x-8 lg:space-y-0"
     >
