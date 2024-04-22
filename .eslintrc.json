@@ -25,10 +25,14 @@
 
   "rules": {
     /* Auto-sort imports and exports */
-    "simple-import-sort/imports": "warn",
-    "simple-import-sort/exports": "warn",
+    "simple-import-sort/imports": "off",
+    "simple-import-sort/exports": "off",
     "sort-imports": "off",
     "import/order": "off",
+    "import/no-duplicates": "off",
+    // See https://github.com/sveltejs/eslint-plugin-svelte3/blob/master/OTHER_PLUGINS.md
+    "import/no-mutable-exports": "off",
+    "no-plusplus": "off",
 
     /* Custom preferences */
     "@typescript-eslint/consistent-indexed-object-style": [
@@ -62,7 +66,7 @@
 
   "overrides": [
     {
-      "files": "*.astro",
+      "files": ["src/*/**.astro"],
       "parser": "astro-eslint-parser",
       // Parse the `<script>` in `.astro` as TypeScript by adding the following configuration.
       "parserOptions": {
@@ -73,7 +77,7 @@
       }
     },
     {
-      "files": ["*.svelte"],
+      "files": ["src/*/**.svelte"],
       "parser": "svelte-eslint-parser",
       // Parse the `<script>` in `.svelte` as TypeScript by adding the following configuration.
       "parserOptions": {
