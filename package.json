@@ -19,6 +19,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@playform/compress": "^0.0.3",
     "astro": "^4.6.3",
+    "bits-ui": "^0.21.4",
     "sharp": "^0.33.3",
     "svelte": "^4.2.15"
   },
