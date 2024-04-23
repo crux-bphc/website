@@ -10,7 +10,7 @@ interface Props {
 const { href, title, description } = Astro.props;
 
 const containerStyles =
-  "w-[88vw] flex flex-col lg:flex-row lg:w-[44vw] h-fit lg:h-fit p-6 m-4 lg:m-5 ";
+  "w-[88vw] flex flex-col lg:flex-row md:w-[64vw] h-auto p-6 ";
 ---
 
 <div
@@ -28,7 +28,7 @@ const containerStyles =
     </a>
   </div>
   <div class="flex items-center justify-center px-6 py-2 lg:w-1/2">
-    <p class="text-md">
+    <p class="text-base">
       {description}
     </p>
   </div>

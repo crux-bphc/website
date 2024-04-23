@@ -5,7 +5,7 @@
 <div class="w-full pt-6 lg:w-9/12">
   <Tabs.Root value="members" class="p-3">
     <Tabs.List
-      class="text-md flex w-full flex-col justify-end gap-2 rounded-md px-1 font-bold lg:flex-row lg:text-lg"
+      class="flex w-full flex-col justify-end gap-2 rounded-md px-1 text-base font-bold lg:flex-row lg:text-lg"
     >
       <span
         class="w-full pl-3 pr-1 text-3xl font-extrabold text-foreground md:text-4xl"
@@ -13,7 +13,7 @@
         Members & Alumni</span
       >
       <div
-        class="text-md gap flex w-full flex-row justify-end rounded-md font-bold lg:text-lg"
+        class="gap flex w-full flex-row justify-end rounded-md text-base font-bold lg:text-lg"
       >
         <Tabs.Trigger
           value="members"
