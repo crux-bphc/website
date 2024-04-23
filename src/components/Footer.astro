@@ -2,5 +2,16 @@
   class="absolute bottom-4 w-full snap-center text-center text-sm sm:text-lg"
 >
   <span class="text-foreground">© 2024 CRUx. Made by</span>
-  <span class="text-primary">CRUx Members</span>
+  {
+    Astro.url.pathname.includes("/members") ? (
+      <span class="text-orange">CRUx Members</span>
+    ) : (
+      <a
+        class="text-primary transition-all duration-200 hover:text-orange hover:underline"
+        href="/members"
+      >
+        CRUx Members
+      </a>
+    )
+  }
 </div>
