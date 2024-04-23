@@ -169,7 +169,7 @@ const {
             >{title}</span
           >
           <div
-            class="flex w-full flex-col items-center justify-between py-6 sm:flex-row lg:hidden"
+            class=`flex w-full flex-col items-center py-6 sm:flex-row lg:hidden ${website && website.length > 0 ? "justify-between" : "justify-center"}`
           >
             <div class="flex w-fit flex-wrap lg:justify-center">
               {
@@ -189,7 +189,13 @@ const {
                 ))
               }
             </div>
-            <a class="text-orange hover:underline" href={website}>{website}</a>
+            {
+              website && website.length > 0 && (
+                <a class="text-orange hover:underline" href={website}>
+                  {website}
+                </a>
+              )
+            }
           </div>
           <p
             class="w-full text-base text-foreground-bright md:text-lg lg:text-xl"
@@ -197,7 +203,7 @@ const {
             <Fragment set:html={text} />
           </p>
           <div
-            class=`flex w-full lg:space-x-10 sm:space-x-8 space-x-6 pt-8 pr-10 ${ text.length > 0 ? "justify-end": "justify-start"}`
+            class=`flex w-full lg:space-x-10 sm:space-x-8 space-x-6 pt-8 lg:pr-10 ${ text.length > 0 ? "justify-end": "lg:justify-start justify-center"}`
           >
             {
               socials.map((social) => (
