@@ -2,266 +2,139 @@
 import GithubIcon from "../../public/github.svg?raw";
 import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
-import AchievementCard from "../components/AchievementCard.astro";
-import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
-import Carousel from "../components/Carousel.svelte";
-import Counter from "../components/Counter.svelte";
-import MemberCardTabs from "../components/MemberCardTabs.svelte";
+import Logo from "../../public/logoMainPage.svg?raw";
 import HomeCard from "../components/HomeCard.astro";
-import MemberCard from "../components/MemberCard.astro";
-import YearIndicator from "../components/YearIndicator.astro";
+import Menu from "../components/Menu.svelte";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Welcome to Astro.">
-  <main class="w-full bg-background">
-    <Counter client:visible />
-    <div class="flex w-full justify-center">
-      <MemberCardTabs client:visible>
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="members"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Soumitra Shewale"
-            title="Secretary"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-            slot="alumni"
-          />
-          <MemberCard
-            href="/test"
-            name="Dharanikanth Reddy Yerasi"
-            title="Member"
-            highlightedBadges={["2021"]}
-            badges={["web dev", "automation"]}
-            imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-            slot="alumni"
+<Layout title="CRUx BPHC">
+  <main id="main" class="bg-background">
+    <div>
+      <div class="absolute left-12 top-12 z-10 text-5xl font-extrabold">
+        <span class="text-foreground-muted">CRUx</span><span
+          class="text-primary">.</span
+        >
+      </div>
+      <div
+        class="fixed left-0 top-0 z-0 flex h-screen w-full items-center justify-center"
+      >
+        <div class="size-56 opacity-45 sm:size-72 md:size-96">
+          <Fragment set:html={Logo} />
+        </div>
+      </div>
+      <div class="-z-50 flex h-[calc(100vh-4rem)] w-full bg-background"></div>
+      <div
+        class="sticky -top-16 z-50 flex h-0 w-full items-center justify-start text-2xl font-bold text-foreground-muted"
+      >
+        <div class="size-16 translate-y-8 bg-navbar lg:w-[7.5rem]"></div>
+      </div>
+    </div>
+    <div
+      class="md:text-md sticky top-0 z-40 h-16 w-full bg-navbar font-bold text-foreground-muted md:text-xl lg:text-2xl"
+    >
+      <div
+        class="absolute left-8 top-0 flex h-16 items-center opacity-80 lg:left-16"
+      >
+        <div class="size-8 lg:size-12">
+          <Fragment set:html={Logo} />
+        </div>
+      </div>
+      <div
+        class="hidden h-full items-center justify-center space-x-12 sm:flex md:space-x-16 lg:space-x-32"
+      >
+        <span>Achievements</span>
+        <span>Projects</span>
+        <span>Members & Alumni</span>
+      </div>
+      <div
+        class="absolute right-8 top-0 flex h-16 items-center sm:hidden lg:left-16"
+      >
+        <Menu client:only="svelte" />
+      </div>
+    </div>
+    <div
+      class="z-30 w-full rounded-xl bg-transparent backdrop-blur-xl backdrop-brightness-[80%]"
+    >
+      <div class="z-30 h-[75vh] snap-center md:h-screen">
+        <div
+          class="absolute left-8 top-20 z-30 sm:left-20 sm:top-20 md:left-36 md:top-36"
+        >
+          <div>
+            <span
+              class="z-50 text-3xl font-extrabold text-foreground-muted sm:text-5xl"
+              >CRUx</span
+            ><span class="z-50 text-3xl font-extrabold text-primary sm:text-5xl"
+              >.</span
+            >
+          </div>
+          <div class="w-4/5 pt-8 sm:w-3/5">
+            <span
+              class="text-md font-semibold text-foreground-muted sm:text-xl lg:text-2xl xl:text-3xl"
+              >The Programming and Computing Club of BITS Pilani, Hyderabad
+              Campus</span
+            >
+          </div>
+          <div
+            class="flex flex-row items-center justify-start space-x-8 pt-8 lg:pl-4"
+          >
+            {
+              [
+                { svg: GithubIcon, href: "https://github.com/crux-bphc" },
+                {
+                  svg: InstagramIcon,
+                  href: "https://www.instagram.com/cruxbphc/",
+                },
+                {
+                  svg: LinkedInIcon,
+                  href: "https://www.linkedin.com/company/crux-bphc?originalSubdomain=in",
+                },
+              ].map((icon) => (
+                <a href={icon.href} target="_blank">
+                  <div class="size-6 rounded-full fill-foreground-muted transition duration-200 ease-in-out hover:fill-primary sm:size-8 md:size-10 lg:size-12">
+                    <Fragment set:html={icon.svg} />
+                  </div>
+                </a>
+              ))
+            }
+          </div>
+        </div>
+        <div
+          class="absolute right-8 top-80 flex w-fit justify-end text-right sm:right-20 sm:top-96 md:right-36"
+        >
+          <div class="w-4/5 pt-8 sm:w-3/5">
+            <span
+              class="text-md font-semibold text-foreground-muted sm:text-xl lg:text-2xl xl:text-3xl"
+              >Dedicated to bettering computing skill on campus by developing
+              open-source software, participating in Competitive Programming and
+              Capture-The-Flag events.</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="flex snap-center items-center justify-center pb-40">
+        <div class="bg-transparent backdrop-blur-xl backdrop-brightness-[80%]">
+          <HomeCard
+            imageURL="/crux.png"
+            icons={[
+              { svg: GithubIcon, href: "https://github.com/crux-bphc" },
+              {
+                svg: InstagramIcon,
+                href: "https://www.instagram.com/cruxbphc/",
+              },
+              {
+                svg: LinkedInIcon,
+                href: "https://www.linkedin.com/company/crux-bphc?originalSubdomain=in",
+              },
+            ]}
           />
         </div>
-      </MemberCardTabs>
-    </div>
-    <Carousel
-      client:visible
-      imageURLs={[
-        "https://avatars.githubusercontent.com/u/36817910?v=4",
-        "https://avatars.githubusercontent.com/u/77240155?v=4",
-        "https://avatars.githubusercontent.com/u/33770878?v=4",
-        "https://avatars.githubusercontent.com/u/116057817?v=4",
-        "https://avatars.githubusercontent.com/u/65390427?v=4",
-        "https://avatars.githubusercontent.com/u/104909040?v=4",
-        "https://avatars.githubusercontent.com/u/60971499?v=4",
-        "https://avatars.githubusercontent.com/u/112821423?v=4",
-      ]}
-      size={8}
-      smallSize={12}
-      mediumSize={14}
-      style="size-8 sm:size-12 md:size-14"
-      maxElements={4}
-    />
-    <div
-      class="flex flex-col space-y-4 p-8 lg:flex-row lg:space-x-8 lg:space-y-0"
-    >
-      <MemberCard
-        href="/test"
-        name="Soumitra Shewale"
-        title="Secretary"
-        highlightedBadges={["2021"]}
-        badges={["web dev", "automation"]}
-        imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-      />
-      <MemberCard
-        href="/test"
-        name="Dharanikanth Reddy Yerasi"
-        title="Member"
-        highlightedBadges={["2021"]}
-        badges={["web dev", "automation"]}
-        imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-      />
-    </div>
-    <div class="flex space-x-8 p-8">
-      <HomeCard
-        imageURL="/crux.png"
-        icons={[
-          { svg: GithubIcon, href: "https://github.com/crux-bphc" },
-          { svg: InstagramIcon, href: "https://www.instagram.com/cruxbphc/" },
-          {
-            svg: LinkedInIcon,
-            href: "https://www.linkedin.com/company/crux-bphc?originalSubdomain=in",
-          },
-        ]}
-      />
-    </div>
-    <div>
-      <AchievementCardWithLogo imageURL="/gsoc.png" href="/test" people={3} />
-      <AchievementCard
-        href="/test"
-        title={"GOOGLE GIRLS HACKATHON"}
-        description="Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)"
-      />
-    </div>
-    <div class="flex px-8">
-      <YearIndicator year="2021" />
+        <div class="absolute bottom-4 w-full text-center text-sm sm:text-lg">
+          <span class="text-foreground">© 2023 CRUx. Made by</span>
+          <span class="text-primary">CRUx Members</span>
+        </div>
+      </div>
     </div>
   </main>
 </Layout>
