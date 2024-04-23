@@ -1,0 +1,89 @@
+---
+import AchievementCard from "../components/AchievementCard.astro";
+import AchievementCardWithLogo from "../components/AchievementCardWithLogo.astro";
+import Divider from "../components/Divider.astro";
+import Navbar from "../components/Navbar.astro";
+import YearIndicator from "../components/YearIndicator.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="CRUx BPHC - Achievements">
+  <main id="main" class="relative bg-background pb-28">
+    <Navbar />
+    <div class="flex w-full flex-col items-center">
+      <div
+        class="flex flex-col items-center justify-center space-y-4 pt-8 lg:w-full lg:flex-row lg:justify-between lg:space-y-0 lg:px-8 xl:w-4/5"
+      >
+        <YearIndicator year="2021" style="lg:hidden" />
+        <AchievementCardWithLogo
+          imageURL="/public/gsoc.png"
+          number={3}
+          caption="GSoC selects"
+          href="/"
+        />
+        <YearIndicator year="2021" style="hidden lg:flex" />
+        <AchievementCardWithLogo
+          imageURL="/public/gsoc.png"
+          number={3}
+          caption="ICPC Finalists"
+          href="/"
+        />
+      </div>
+      <div
+        class="flex flex-col items-stretch justify-center space-y-4 pt-4 lg:w-full lg:flex-row lg:justify-between lg:space-x-4 lg:space-y-0 lg:px-8 xl:w-4/5"
+      >
+        <AchievementCard
+          title="Google Girls Hackathon 2024"
+          href="/"
+          description="Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)"
+        />
+        <AchievementCard
+          title="Google Girls Hackathon 2024"
+          href="/"
+          description="Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)"
+        />
+      </div>
+      <Divider
+        style="md:w-7/12 w-10/12 lg:w-11/12 xl:w-9/12 mt-8 border-dashed"
+      />
+      <div
+        class="flex flex-col items-center justify-center space-y-4 pt-8 lg:w-full lg:flex-row lg:justify-between lg:space-y-0 lg:px-8 xl:w-4/5"
+      >
+        <YearIndicator year="2021" style="lg:hidden" />
+        <AchievementCardWithLogo
+          imageURL="/public/gsoc.png"
+          number={3}
+          caption="GSoC selects"
+          href="/"
+        />
+        <YearIndicator year="2021" style="hidden lg:flex" />
+        <AchievementCardWithLogo
+          imageURL="/public/gsoc.png"
+          number={3}
+          caption="ICPC Finalists"
+          href="/"
+        />
+      </div>
+      <div
+        class="flex flex-col items-stretch justify-center space-y-4 pt-4 lg:w-full lg:flex-row lg:justify-between lg:space-x-4 lg:space-y-0 lg:px-8 xl:w-4/5"
+      >
+        <AchievementCard
+          title="Google Girls Hackathon 2024"
+          href="/"
+          description="Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)"
+        />
+        <AchievementCard
+          title="Google Girls Hackathon 2024"
+          href="/"
+          description="Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)Another battle often noted for being a victory against all odds was The Battle of Agincourt (1415). The battle of Agincourt (1415)"
+        />
+      </div>
+    </div>
+    <div
+      class="absolute bottom-4 w-full snap-center text-center text-sm sm:text-lg"
+    >
+      <span class="text-foreground">© 2023 CRUx. Made by</span>
+      <span class="text-primary">CRUx Members</span>
+    </div>
+  </main>
+</Layout>
