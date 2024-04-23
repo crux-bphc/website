@@ -81,6 +81,10 @@
         {#each images as imageURL}
           <img
             src={imageURL}
+            width={`${size * 4}px`}
+            sizes={`${size * 4}px, (min-width: 640px) ${smallSize * 4}px, (${mediumSize * 4}px`}
+            loading="lazy"
+            decoding="async"
             class={`rounded-full ${style} size-[calc(var(--image-size))] sm:size-[calc(var(--small-image-size))] md:size-[calc(var(--medium-image-size))]`}
             alt={imageURL}
           />
