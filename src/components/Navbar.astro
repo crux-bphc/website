@@ -1,0 +1,28 @@
+---
+import Menu from "./Menu.svelte";
+import Logo from "../../public/logoMainPage.svg?raw";
+---
+
+<div
+  class="z-40 h-16 w-full bg-navbar font-bold text-foreground-muted md:text-xl lg:text-2xl"
+>
+  <div
+    class="absolute left-8 top-0 flex h-16 items-center opacity-80 lg:left-16"
+  >
+    <div class="size-8 lg:size-12">
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <div
+    class="hidden h-full items-center justify-center space-x-12 sm:flex md:space-x-16 lg:space-x-32"
+  >
+    <span>Achievements</span>
+    <span>Projects</span>
+    <span>Members & Alumni</span>
+  </div>
+  <div
+    class="absolute right-8 top-0 flex h-16 items-center sm:hidden lg:left-16"
+  >
+    <Menu client:only="svelte" />
+  </div>
+</div>
