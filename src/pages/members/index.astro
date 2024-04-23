@@ -4,6 +4,8 @@ import MemberCard from "../../components/MemberCard.astro";
 import MemberCardTabs from "../../components/MemberCardTabs.svelte";
 import Navbar from "../../components/Navbar.astro";
 import Layout from "../../layouts/Layout.astro";
+import members from "../../data/members.json";
+import alumni from "../../data/alumni.json";
 ---
 
 <Layout title="CRUx BPHC - Members">
@@ -11,177 +13,44 @@ import Layout from "../../layouts/Layout.astro";
     <Navbar />
     <div class="flex w-full flex-col items-center lg:pt-12 xl:pt-16">
       <MemberCardTabs client:visible>
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="members"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Soumitra Shewale"
-          title="Secretary"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/36817910?v=4"
-          slot="alumni"
-        />
-        <MemberCard
-          href="/test"
-          name="Dharanikanth Reddy Yerasi"
-          title="Member"
-          highlightedBadges={["2021"]}
-          badges={["web dev", "automation"]}
-          imageURL="https://avatars.githubusercontent.com/u/77240155?v=4"
-          slot="alumni"
-        />
+        {
+          members
+            .sort(
+              (a, b) =>
+                parseInt(b.highlightedBadges[0] ?? "0") -
+                parseInt(a.highlightedBadges[0] ?? "0"),
+            )
+            .map((member) => (
+              <MemberCard
+                href={`/members/${member.username}`}
+                name={member.name}
+                title={member.title}
+                highlightedBadges={member.highlightedBadges}
+                badges={member.badges}
+                imageURL={member.avatar}
+                slot="members"
+              />
+            ))
+        }
+        {
+          alumni
+            .sort(
+              (a, b) =>
+                parseInt(b.highlightedBadges[0] ?? "0") -
+                parseInt(a.highlightedBadges[0] ?? "0"),
+            )
+            .map((alumnus) => (
+              <MemberCard
+                href={`/members/${alumnus.username}`}
+                name={alumnus.name}
+                title={alumnus.title}
+                highlightedBadges={alumnus.highlightedBadges}
+                badges={alumnus.badges}
+                imageURL={alumnus.avatar}
+                slot="alumni"
+              />
+            ))
+        }
       </MemberCardTabs>
     </div>
     <Footer />
