@@ -1,0 +1,189 @@
+---
+import Divider from "../components/Divider.astro";
+import Navbar from "../components/Navbar.astro";
+import Carousel from "../components/Carousel.svelte";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="CRUx BPHC - Projects">
+  <main id="main" class="relative bg-background pb-28">
+    <Navbar />
+    <div class="flex w-full flex-col items-center">
+      <div
+        class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
+      >
+        <div
+          class="flex h-full w-full flex-col justify-between pl-4 pr-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
+                >sorter</span
+              >
+              <span
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                >link</span
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+              >Face ID and clustering to retrieve your snaps from campus events</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:ml-[-2rem] lg:ml-[-3rem] lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              imageURLs={[
+                "https://avatars.githubusercontent.com/u/36817910?v=4",
+                "https://avatars.githubusercontent.com/u/77240155?v=4",
+                "https://avatars.githubusercontent.com/u/33770878?v=4",
+                "https://avatars.githubusercontent.com/u/116057817?v=4",
+                "https://avatars.githubusercontent.com/u/65390427?v=4",
+                "https://avatars.githubusercontent.com/u/104909040?v=4",
+                "https://avatars.githubusercontent.com/u/60971499?v=4",
+                "https://avatars.githubusercontent.com/u/112821423?v=4",
+              ]}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/mockup1.png"
+            class="h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:h-[20rem] md:w-[14rem] lg:h-[28rem] lg:w-[20rem] xl:h-[36rem] xl:w-[25rem]"
+          />
+          <img
+            src="/mockup2.png"
+            class="ml-[-1rem] h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:ml-[-2rem] md:h-[20rem] md:w-[14rem] lg:ml-[-3rem] lg:h-[28rem] lg:w-[16rem] xl:h-[36rem] xl:w-[20rem]"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+      <div
+        class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
+      >
+        <div
+          class="flex h-full w-full flex-col justify-between pl-4 pr-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
+                >sorter</span
+              >
+              <span
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                >link</span
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+              >Face ID and clustering to retrieve your snaps from campus events</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:ml-[-2rem] lg:ml-[-3rem] lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              imageURLs={[
+                "https://avatars.githubusercontent.com/u/36817910?v=4",
+                "https://avatars.githubusercontent.com/u/77240155?v=4",
+                "https://avatars.githubusercontent.com/u/33770878?v=4",
+                "https://avatars.githubusercontent.com/u/116057817?v=4",
+                "https://avatars.githubusercontent.com/u/65390427?v=4",
+                "https://avatars.githubusercontent.com/u/104909040?v=4",
+                "https://avatars.githubusercontent.com/u/60971499?v=4",
+                "https://avatars.githubusercontent.com/u/112821423?v=4",
+              ]}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/mockup1.png"
+            class="h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:h-[20rem] md:w-[14rem] lg:h-[28rem] lg:w-[20rem] xl:h-[36rem] xl:w-[25rem]"
+          />
+          <img
+            src="/mockup2.png"
+            class="ml-[-1rem] h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:ml-[-2rem] md:h-[20rem] md:w-[14rem] lg:ml-[-3rem] lg:h-[28rem] lg:w-[16rem] xl:h-[36rem] xl:w-[20rem]"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+      <div
+        class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
+      >
+        <div
+          class="flex h-full w-full flex-col justify-between pl-4 pr-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
+                >sorter</span
+              >
+              <span
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                >link</span
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+              >Face ID and clustering to retrieve your snaps from campus events</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:ml-[-2rem] lg:ml-[-3rem] lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              imageURLs={[
+                "https://avatars.githubusercontent.com/u/36817910?v=4",
+                "https://avatars.githubusercontent.com/u/77240155?v=4",
+                "https://avatars.githubusercontent.com/u/33770878?v=4",
+                "https://avatars.githubusercontent.com/u/116057817?v=4",
+                "https://avatars.githubusercontent.com/u/65390427?v=4",
+                "https://avatars.githubusercontent.com/u/104909040?v=4",
+                "https://avatars.githubusercontent.com/u/60971499?v=4",
+                "https://avatars.githubusercontent.com/u/112821423?v=4",
+              ]}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/mockup1.png"
+            class="h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:h-[20rem] md:w-[14rem] lg:h-[28rem] lg:w-[20rem] xl:h-[36rem] xl:w-[25rem]"
+          />
+          <img
+            src="/mockup2.png"
+            class="ml-[-1rem] h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:ml-[-2rem] md:h-[20rem] md:w-[14rem] lg:ml-[-3rem] lg:h-[28rem] lg:w-[16rem] xl:h-[36rem] xl:w-[20rem]"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+
+      <div
+        class="absolute bottom-4 w-full snap-center text-center text-sm sm:text-lg"
+      >
+        <span class="text-foreground">© 2023 CRUx. Made by</span>
+        <span class="text-primary">CRUx Members</span>
+      </div>
+    </div>
+  </main>
+</Layout>
