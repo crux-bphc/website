@@ -3,6 +3,7 @@ import Divider from "../components/Divider.astro";
 import Navbar from "../components/Navbar.astro";
 import Carousel from "../components/Carousel.svelte";
 import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout title="CRUx BPHC - Projects">
@@ -13,7 +14,7 @@ import Layout from "../layouts/Layout.astro";
         class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
       >
         <div
-          class="flex h-full w-full flex-col justify-between pl-4 pr-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
         >
           <div class="flex flex-col">
             <div class="flex items-center">
@@ -31,7 +32,7 @@ import Layout from "../layouts/Layout.astro";
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:ml-[-2rem] lg:ml-[-3rem] lg:pb-24 xl:ml-0"
+            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -56,11 +57,11 @@ import Layout from "../layouts/Layout.astro";
         <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
           <img
             src="/mockup1.png"
-            class="h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:h-[20rem] md:w-[14rem] lg:h-[28rem] lg:w-[20rem] xl:h-[36rem] xl:w-[25rem]"
+            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-[25rem]"
           />
           <img
             src="/mockup2.png"
-            class="ml-[-1rem] h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:ml-[-2rem] md:h-[20rem] md:w-[14rem] lg:ml-[-3rem] lg:h-[28rem] lg:w-[16rem] xl:h-[36rem] xl:w-[20rem]"
+            class="-ml-4 h-44 w-32 sm:h-44 sm:w-32 md:-ml-8 md:h-80 md:w-56 lg:-ml-12 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
           />
         </div>
       </div>
@@ -69,7 +70,7 @@ import Layout from "../layouts/Layout.astro";
         class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
       >
         <div
-          class="flex h-full w-full flex-col justify-between pl-4 pr-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
         >
           <div class="flex flex-col">
             <div class="flex items-center">
@@ -87,7 +88,7 @@ import Layout from "../layouts/Layout.astro";
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:ml-[-2rem] lg:ml-[-3rem] lg:pb-24 xl:ml-0"
+            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -112,11 +113,11 @@ import Layout from "../layouts/Layout.astro";
         <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
           <img
             src="/mockup1.png"
-            class="h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:h-[20rem] md:w-[14rem] lg:h-[28rem] lg:w-[20rem] xl:h-[36rem] xl:w-[25rem]"
+            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-[25rem]"
           />
           <img
             src="/mockup2.png"
-            class="ml-[-1rem] h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:ml-[-2rem] md:h-[20rem] md:w-[14rem] lg:ml-[-3rem] lg:h-[28rem] lg:w-[16rem] xl:h-[36rem] xl:w-[20rem]"
+            class="-ml-4 h-44 w-32 sm:h-44 sm:w-32 md:-ml-8 md:h-80 md:w-56 lg:-ml-12 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
           />
         </div>
       </div>
@@ -125,7 +126,7 @@ import Layout from "../layouts/Layout.astro";
         class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
       >
         <div
-          class="flex h-full w-full flex-col justify-between pl-4 pr-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
         >
           <div class="flex flex-col">
             <div class="flex items-center">
@@ -143,7 +144,7 @@ import Layout from "../layouts/Layout.astro";
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:ml-[-2rem] lg:ml-[-3rem] lg:pb-24 xl:ml-0"
+            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -168,22 +169,17 @@ import Layout from "../layouts/Layout.astro";
         <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
           <img
             src="/mockup1.png"
-            class="h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:h-[20rem] md:w-[14rem] lg:h-[28rem] lg:w-[20rem] xl:h-[36rem] xl:w-[25rem]"
+            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-[25rem]"
           />
           <img
             src="/mockup2.png"
-            class="ml-[-1rem] h-[11rem] w-[8rem] sm:h-[11rem] sm:w-[8rem] md:ml-[-2rem] md:h-[20rem] md:w-[14rem] lg:ml-[-3rem] lg:h-[28rem] lg:w-[16rem] xl:h-[36rem] xl:w-[20rem]"
+            class="-ml-4 h-44 w-32 sm:h-44 sm:w-32 md:-ml-8 md:h-80 md:w-56 lg:-ml-12 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
           />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
 
-      <div
-        class="absolute bottom-4 w-full snap-center text-center text-sm sm:text-lg"
-      >
-        <span class="text-foreground">© 2023 CRUx. Made by</span>
-        <span class="text-primary">CRUx Members</span>
-      </div>
+      <Footer />
     </div>
   </main>
 </Layout>
