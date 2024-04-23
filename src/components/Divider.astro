@@ -1,0 +1,9 @@
+---
+interface Props {
+  style?: string;
+}
+
+const { style } = Astro.props;
+---
+
+<div class=`h-0 ${style} opacity-30 border-2 border-foreground-muted`></div>
