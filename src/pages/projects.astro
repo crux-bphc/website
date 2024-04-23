@@ -4,14 +4,26 @@ import Navbar from "../components/Navbar.astro";
 import Carousel from "../components/Carousel.svelte";
 import Layout from "../layouts/Layout.astro";
 import Footer from "../components/Footer.astro";
+import Logo from "../../public/logoMainPage.svg?raw";
 ---
 
 <Layout title="CRUx BPHC - Projects">
-  <main id="main" class="relative bg-background pb-28">
+  <div class="fixed left-0 top-0 size-full bg-background"></div>
+  <div class="fixed -right-24 -top-16 z-0 flex opacity-20 blur">
+    <div class="size-96 text-foreground-bright opacity-45">
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <div class="fixed -bottom-20 -left-20 z-0 flex opacity-20 blur">
+    <div class="size-96 text-foreground-bright opacity-45">
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <main id="main" class="relative pb-28">
     <Navbar />
     <div class="flex w-full flex-col items-center">
       <div
-        class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
+        class="flex h-[calc(45dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)]"
       >
         <div
           class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
@@ -67,7 +79,7 @@ import Footer from "../components/Footer.astro";
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
       <div
-        class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
+        class="flex h-[calc(45dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)]"
       >
         <div
           class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
@@ -123,7 +135,7 @@ import Footer from "../components/Footer.astro";
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
       <div
-        class="flex h-[calc(45vh)] w-full flex-col justify-between sm:h-[calc(36vh)] sm:flex-row md:h-[calc(54vh)] lg:h-[calc(76vh)] xl:h-[calc(100vh-4rem)]"
+        class="flex h-[calc(45dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)]"
       >
         <div
           class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"

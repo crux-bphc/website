@@ -17,7 +17,7 @@
 >
 {#if opened}
   <div
-    class={`absolute -right-8 ${window.scrollY > 128 ? "top-16" : "-top-36"} flex w-screen select-none flex-col space-y-4 bg-navbar/80 px-4 py-4 text-right text-xl font-bold text-foreground-muted transition-all duration-300`}
+    class={`absolute -right-8 ${window.scrollY > 256 ? "top-16" : "-top-36"} flex w-screen select-none flex-col space-y-4 bg-navbar/80 px-4 py-4 text-right text-xl font-bold text-foreground-muted transition-all duration-300`}
     transition:fade={{
       duration: 400,
       easing: cubicOut,

@@ -9,6 +9,7 @@ import Navbar from "../../components/Navbar.astro";
 import Layout from "../../layouts/Layout.astro";
 import members from "../../data/members.json";
 import alumni from "../../data/alumni.json";
+import Logo from "../../../public/logoMainPage.svg?raw";
 
 export async function getStaticPaths() {
   const iconMap = {
@@ -66,7 +67,12 @@ const {
 } = Astro.props;
 ---
 
-<Layout title="CRUx BPHC - Members">
+<Layout title=`CRUx BPHC - ${name}`>
+  <div class="fixed -bottom-24 -right-24 z-0 flex opacity-40 blur">
+    <div class="size-96 text-foreground-bright opacity-45">
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
   <main id="main" class="h-screen bg-background pb-28">
     <Navbar />
     <div class="flex h-full w-full flex-col items-center lg:pt-12 xl:pt-16">

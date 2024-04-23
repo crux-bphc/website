@@ -1,9 +1,25 @@
 <script lang="ts">
   import { Tabs } from "bits-ui";
+  import { onMount } from "svelte";
+
+  export let defaultTab = "";
+
+  const setDefaultTab = (clicked: "members" | "alumni") => {
+    window.location.hash = `#${clicked}`;
+  };
+
+  onMount(() => {
+    if (
+      window.location.hash === "#members" ||
+      window.location.hash === "#alumni"
+    ) {
+      defaultTab = window.location.hash.slice(1);
+    }
+  });
 </script>
 
 <div class="w-full pt-6 lg:w-11/12 xl:w-9/12">
-  <Tabs.Root value="members" class="p-3">
+  <Tabs.Root value={defaultTab ?? "members"} class="p-3">
     <Tabs.List
       class="flex w-full flex-col justify-end gap-2 rounded-md px-1 text-base font-bold lg:flex-row lg:text-lg"
     >
@@ -16,11 +32,13 @@
         class="gap flex w-full flex-row justify-end rounded-md text-base font-bold lg:text-lg"
       >
         <Tabs.Trigger
+          on:click={() => setDefaultTab("members")}
           value="members"
           class="duration-400 mx-1 h-10 w-full rounded-md bg-tab-inactive py-1 text-purple shadow-2xl transition-colors data-[state=active]:bg-orange data-[state=active]:text-orange-foreground lg:w-40 xl:w-48"
           >Members</Tabs.Trigger
         >
         <Tabs.Trigger
+          on:click={() => setDefaultTab("alumni")}
           value="alumni"
           class="duration-400 mx-1 h-10 w-full rounded-md bg-tab-inactive py-1 text-purple shadow-2xl transition-colors data-[state=active]:bg-orange data-[state=active]:text-orange-foreground lg:w-40 xl:w-48"
           >Alumni</Tabs.Trigger
