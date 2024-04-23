@@ -7,100 +7,20 @@ import Badge from "../../components/Badge.astro";
 import Footer from "../../components/Footer.astro";
 import Navbar from "../../components/Navbar.astro";
 import Layout from "../../layouts/Layout.astro";
+import members from "../../data/members.json";
+import alumni from "../../data/alumni.json";
 
 export async function getStaticPaths() {
-  const pages = [
-    {
-      username: "soumitradev",
-      name: "Soumitra Shewale",
-      title: "Secretary",
-      text: "Here at cruX I mainly write web apps, do all the infra and automation work for them to make sure they stay up and running, and most important I make sure the trains run on time, projects are finished according to deadlines, and everyone's having fun.",
-      socials: [
-        {
-          name: "github",
-          link: "https://github.com/soumitradev",
-          icon: GithubIcon,
-        },
-        {
-          name: "linkedin",
-          link: "https://www.linkedin.com/in/soumitra-shewale/",
-          icon: LinkedInIcon,
-        },
-        {
-          name: "email",
-          link: "mailto:f20210781@hyderabad.bits-pilani.ac.in",
-          icon: InstagramIcon,
-        },
-      ],
-      avatar: "https://avatars.githubusercontent.com/u/36817910?v=4",
-      website: "https://soumi.dev/",
-      highlightedBadges: ["2021"],
-      badges: ["Web Dev", "Automation and Scripting"],
-    },
-    {
-      username: "grug_brained",
-      name: "Dharanikanth Reddy",
-      title: "Developer",
-      text: `apex predator of grug is complexity<br/>
+  const iconMap = {
+    github: GithubIcon,
+    linkedin: LinkedInIcon,
+    instagram: InstagramIcon,
+    email: InstagramIcon,
+  };
 
-        complexity bad<br/>
+  const membersAndAlumni = members.concat(alumni);
 
-        say again:<br/>
-
-        complexity very bad<br/>
-
-        you say now:<br/>
-
-        complexity very, very bad`,
-      socials: [
-        {
-          name: "github",
-          link: "https://github.com/pnicto",
-          icon: GithubIcon,
-        },
-        {
-          name: "linkedin",
-          link: "https://www.linkedin.com/in/soumitra-shewale/",
-          icon: LinkedInIcon,
-        },
-        {
-          name: "email",
-          link: "mailto:f20210781@hyderabad.bits-pilani.ac.in",
-          icon: InstagramIcon,
-        },
-      ],
-      avatar: "https://avatars.githubusercontent.com/u/36817910?v=4",
-      highlightedBadges: ["2021"],
-      badges: ["Web Dev", "Automation and Scripting"],
-    },
-    {
-      username: "jasonag23",
-      name: "Jason Goveas",
-      title: "Developer",
-      text: "",
-      socials: [
-        {
-          name: "github",
-          link: "https://github.com/JustAGhost23",
-          icon: GithubIcon,
-        },
-        {
-          name: "linkedin",
-          link: "https://www.linkedin.com/in/soumitra-shewale/",
-          icon: LinkedInIcon,
-        },
-        {
-          name: "email",
-          link: "mailto:f20210781@hyderabad.bits-pilani.ac.in",
-          icon: InstagramIcon,
-        },
-      ],
-      avatar: "https://avatars.githubusercontent.com/u/36817910?v=4",
-      highlightedBadges: ["2021"],
-      badges: ["Web Dev", "Automation and Scripting"],
-    },
-  ];
-  return pages.map(
+  return membersAndAlumni.map(
     ({
       username,
       name,
@@ -118,7 +38,12 @@ export async function getStaticPaths() {
           name,
           title,
           text,
-          socials,
+          socials: socials.map((social) => {
+            return {
+              link: social.link,
+              icon: iconMap[social.name as keyof typeof iconMap] as string,
+            };
+          }),
           avatar,
           website,
           highlightedBadges,

@@ -1,0 +1,288 @@
+[
+  {
+    "username": "soumitradev",
+    "name": "Soumitra Shewale",
+    "title": "Secretary",
+    "text": "Here at cruX I mainly write web apps, do all the infra and automation work for them to make sure they stay up and running, and most important I make sure the trains run on time, projects are finished according to deadlines, and everyone's having fun.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/soumitradev" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/soumitra-shewale/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210781@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/36817910?v=4",
+    "website": "https://soumi.dev/",
+    "highlightedBadges": ["2021", "Senate '23-24"],
+    "badges": ["Web Dev", "Automation and Scripting"]
+  },
+  {
+    "username": "grug_brained",
+    "name": "Dharanikanth Reddy",
+    "title": "Developer",
+    "text": "apex predator of grug is complexity<br/>complexity bad<br/>say again:<br/>complexity <i>very</i> bad<br/>you say now:<br/>complexity <i>very, very</i> bad",
+    "socials": [
+      { "name": "github", "link": "https://github.com/pnicto" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/dharanikanth-reddy-9386b623b"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210264@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/77240155?v=4",
+    "website": "https://pnicto.github.io/",
+    "highlightedBadges": ["2021"],
+    "badges": ["Web Dev", "Automation and Scripting"]
+  },
+  {
+    "username": "jasonag23",
+    "name": "Jason Goveas",
+    "title": "Developer",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/JustAGhost23" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/jason-goveas-290a2a284"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210237@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/95233082?v=4",
+    "highlightedBadges": ["2021"],
+    "badges": ["Web Dev", "App Dev"]
+  },
+  {
+    "username": "srikant",
+    "name": "Srikant Tangirala",
+    "title": "Developer",
+    "text": "BPHC '24 | 23' Summer Intern @ DevRev",
+    "socials": [
+      { "name": "github", "link": "https://github.com/plaidbait91" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/srikant-tangirala-b0090b211"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20200055@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/75108809?v=4",
+    "highlightedBadges": ["2020", "Senate '22-23"],
+    "badges": ["App Dev"]
+  },
+  {
+    "username": "vaddiraju",
+    "name": "Varun Vaddiraju",
+    "title": "Competitive Programmer",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/Dosto3vsky" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/varun-vaddiraju-525a09248"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20200173@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/91046705?v=4",
+    "highlightedBadges": ["2020", "Senate '22-23"],
+    "badges": ["Competitive Programming"]
+  },
+  {
+    "username": "aayushi",
+    "name": "Aayushi Sah",
+    "title": "Developer",
+    "text": "Certum Quod Factum",
+    "socials": [
+      { "name": "github", "link": "https://github.com/aayushisah" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/aayushi-sah"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20202238@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/88141650?v=4",
+    "highlightedBadges": ["2020", "Senate '22-23"],
+    "badges": ["Game Dev"]
+  },
+  {
+    "username": "majimearun",
+    "name": "Arunachala A.M.",
+    "title": "President",
+    "text": "CS undergrad @ BITS Pilani, Hyderabad Campus || Software Developer",
+    "socials": [
+      { "name": "github", "link": "https://github.com/majimearun" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/arunachala-am/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:arunachala0619@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/60971499?v=4",
+    "website": "https://www.majimearun.com/",
+    "highlightedBadges": ["2021", "Senate '23-24"],
+    "badges": ["Machine Learning", "Automation and Scripting", "Web Dev"]
+  },
+  {
+    "username": "soumitradev 2",
+    "name": "Soumitra Shewale 2",
+    "title": "Secretary",
+    "text": "Here at cruX I mainly write web apps, do all the infra and automation work for them to make sure they stay up and running, and most important I make sure the trains run on time, projects are finished according to deadlines, and everyone's having fun.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/soumitradev" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/soumitra-shewale/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210781@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/36817910?v=4",
+    "website": "https://soumi.dev/",
+    "highlightedBadges": ["2021", "Senate '23-24"],
+    "badges": ["Web Dev", "Automation and Scripting"]
+  },
+  {
+    "username": "grug_brained 2",
+    "name": "Dharanikanth Reddy 2",
+    "title": "Developer",
+    "text": "apex predator of grug is complexity<br/>complexity bad<br/>say again:<br/>complexity <i>very</i> bad<br/>you say now:<br/>complexity <i>very, very</i> bad",
+    "socials": [
+      { "name": "github", "link": "https://github.com/pnicto" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/dharanikanth-reddy-9386b623b"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210264@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/77240155?v=4",
+    "website": "https://pnicto.github.io/",
+    "highlightedBadges": ["2021"],
+    "badges": ["Web Dev", "Automation and Scripting"]
+  },
+  {
+    "username": "jasonag23 2",
+    "name": "Jason Goveas 2",
+    "title": "Developer",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/JustAGhost23" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/jason-goveas-290a2a284"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210237@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/95233082?v=4",
+    "highlightedBadges": ["2021"],
+    "badges": ["Web Dev", "App Dev"]
+  },
+  {
+    "username": "srikant 2",
+    "name": "Srikant Tangirala 2",
+    "title": "Developer",
+    "text": "BPHC '24 | 23' Summer Intern @ DevRev",
+    "socials": [
+      { "name": "github", "link": "https://github.com/plaidbait91" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/srikant-tangirala-b0090b211"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20200055@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/75108809?v=4",
+    "highlightedBadges": ["2020", "Senate '22-23"],
+    "badges": ["App Dev"]
+  },
+  {
+    "username": "vaddiraju 2",
+    "name": "Varun Vaddiraju 2",
+    "title": "Competitive Programmer",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/Dosto3vsky" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/varun-vaddiraju-525a09248"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20200173@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/91046705?v=4",
+    "highlightedBadges": ["2020", "Senate '22-23"],
+    "badges": ["Competitive Programming"]
+  },
+  {
+    "username": "aayushi 2",
+    "name": "Aayushi Sah 2",
+    "title": "Developer",
+    "text": "Certum Quod Factum",
+    "socials": [
+      { "name": "github", "link": "https://github.com/aayushisah" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/aayushi-sah"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20202238@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/88141650?v=4",
+    "highlightedBadges": ["2020", "Senate '22-23"],
+    "badges": ["Game Dev"]
+  },
+  {
+    "username": "majimearun 2",
+    "name": "Arunachala A.M. 2",
+    "title": "President",
+    "text": "CS undergrad @ BITS Pilani, Hyderabad Campus || Software Developer",
+    "socials": [
+      { "name": "github", "link": "https://github.com/majimearun" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/arunachala-am/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:arunachala0619@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/60971499?v=4",
+    "website": "https://www.majimearun.com/",
+    "highlightedBadges": ["2021", "Senate '23-24"],
+    "badges": ["Machine Learning", "Automation and Scripting", "Web Dev"]
+  }
+]
