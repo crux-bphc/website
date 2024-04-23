@@ -1,0 +1,204 @@
+[
+  {
+    "username": "viswa",
+    "name": "Abhijeet Viswa",
+    "title": "Alumnus",
+    "text": "bitsian.\\nHey there. I'm a student of the 2018 batch that did my undergrad in EnI. I started coding in 8th grade and loved it instantly. My interests primarily lie in app dev and have worked in Java, VB6, Python and C#. Recently, I forayed into the world of Android App Development and Python web dev using Django.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/abhijeetviswa" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/abhijeetviswa/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:abhijeetviswa@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/2743113?v=4",
+    "website": "https://crux-bphc.github.io/members/abhijeet-viswa.html",
+    "highlightedBadges": ["2018", "Alumnus"],
+    "badges": ["Web Dev", "Automation and Scripting"]
+  },
+  {
+    "username": "varun-parthasarthy",
+    "name": "Varun Parthasarthy",
+    "title": "Alumnus",
+    "text": "Analyst at JP Morgan, working in Applied AI & ML. I have a great deal of interest in computer vision and its applications, as well as image processing and machine learning.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/varun-parthasarathy" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/varun-parthasarathy-72730815b"
+      },
+      {
+        "name": "email",
+        "link": "mailto:varunparthasarathy7@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/16452817?v=4",
+    "highlightedBadges": ["2017", "Alumnus"],
+    "badges": ["Machine Learning"]
+  },
+  {
+    "username": "chopra",
+    "name": "Aditya Chopra",
+    "title": "Alumnus",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/adeecc" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/aditya-chopra11/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20190178h@alumni.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/28647816?v=4",
+    "highlightedBadges": ["2019", "Alumnus"],
+    "badges": ["Machine Learning", "Automation and Scripting"]
+  },
+  {
+    "username": "asura",
+    "name": "Abhinav Sukumar Rao",
+    "title": "Alumnus",
+    "text": "MIIS @ LTI, CMU",
+    "socials": [
+      { "name": "github", "link": "https://github.com/AetherPrior" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/abhinav-rao"
+      },
+      {
+        "name": "email",
+        "link": "mailto:abhinavr@andrew.cmu.edu"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/39939017?v=4",
+    "highlightedBadges": ["2018", "Alumnus"],
+    "badges": ["Machine Learning", "Automation and Scripting", "Web Dev"]
+  },
+  {
+    "username": "jj",
+    "name": "Jeevan Jyot Singh",
+    "title": "Alumnus",
+    "text": "ICPC World Finalist | SWE @ Google | Former Intern @ Nutanix | Master on Codeforces | BITS Pilani CS Undergrad",
+    "socials": [
+      { "name": "github", "link": "https://github.com/21jjsk" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/jeevanjyot"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20190172h@alumni.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/73716261?v=4",
+    "highlightedBadges": ["2019", "Alumnus"],
+    "badges": ["Competitive Programming", "Web Dev"]
+  },
+  {
+    "username": "viswa2",
+    "name": "Abhijeet Viswa 2",
+    "title": "Alumnus",
+    "text": "bitsian.\\nHey there. I'm a student of the 2018 batch that did my undergrad in EnI. I started coding in 8th grade and loved it instantly. My interests primarily lie in app dev and have worked in Java, VB6, Python and C#. Recently, I forayed into the world of Android App Development and Python web dev using Django.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/abhijeetviswa" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/abhijeetviswa/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:abhijeetviswa@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/2743113?v=4",
+    "website": "https://crux-bphc.github.io/members/abhijeet-viswa.html",
+    "highlightedBadges": ["2018", "Alumnus"],
+    "badges": ["Web Dev", "Automation and Scripting"]
+  },
+  {
+    "username": "varun-parthasarthy2",
+    "name": "Varun Parthasarthy 2",
+    "title": "Alumnus",
+    "text": "Analyst at JP Morgan, working in Applied AI & ML. I have a great deal of interest in computer vision and its applications, as well as image processing and machine learning.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/varun-parthasarathy" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/varun-parthasarathy-72730815b"
+      },
+      {
+        "name": "email",
+        "link": "mailto:varunparthasarathy7@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/16452817?v=4",
+    "highlightedBadges": ["2017", "Alumnus"],
+    "badges": ["Machine Learning"]
+  },
+  {
+    "username": "chopra2",
+    "name": "Aditya Chopra 2",
+    "title": "Alumnus",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/adeecc" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/aditya-chopra11/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20190178h@alumni.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/28647816?v=4",
+    "highlightedBadges": ["2019", "Alumnus"],
+    "badges": ["Machine Learning", "Automation and Scripting"]
+  },
+  {
+    "username": "asura2",
+    "name": "Abhinav Sukumar Rao 2",
+    "title": "Alumnus",
+    "text": "MIIS @ LTI, CMU",
+    "socials": [
+      { "name": "github", "link": "https://github.com/AetherPrior" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/abhinav-rao"
+      },
+      {
+        "name": "email",
+        "link": "mailto:abhinavr@andrew.cmu.edu"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/39939017?v=4",
+    "highlightedBadges": ["2018", "Alumnus"],
+    "badges": ["Machine Learning", "Automation and Scripting", "Web Dev"]
+  },
+  {
+    "username": "jj2",
+    "name": "Jeevan Jyot Singh 2",
+    "title": "Alumnus",
+    "text": "ICPC World Finalist | SWE @ Google | Former Intern @ Nutanix | Master on Codeforces | BITS Pilani CS Undergrad",
+    "socials": [
+      { "name": "github", "link": "https://github.com/21jjsk" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/jeevanjyot"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20190172h@alumni.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/73716261?v=4",
+    "highlightedBadges": ["2019", "Alumnus"],
+    "badges": ["Competitive Programming", "Web Dev"]
+  }
+]
