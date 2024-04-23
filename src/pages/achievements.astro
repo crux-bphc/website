@@ -6,10 +6,22 @@ import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import YearIndicator from "../components/YearIndicator.astro";
 import Layout from "../layouts/Layout.astro";
+import Logo from "../../public/logoMainPage.svg?raw";
 ---
 
 <Layout title="CRUx BPHC - Achievements">
-  <main id="main" class="relative bg-background pb-28">
+  <div class="fixed left-0 top-0 size-full bg-background"></div>
+  <div class="fixed -right-24 -top-16 z-0 flex opacity-20 blur">
+    <div class="size-96 text-foreground-bright opacity-45">
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <div class="fixed -bottom-20 -left-20 z-0 flex opacity-20 blur">
+    <div class="size-96 text-foreground-bright opacity-45">
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <main id="main" class="relative pb-28">
     <Navbar />
     <div class="flex w-full flex-col items-center">
       <div
