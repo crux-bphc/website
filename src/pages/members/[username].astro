@@ -169,7 +169,7 @@ const {
             >{title}</span
           >
           <div
-            class=`flex w-full flex-col items-center py-6 sm:flex-row lg:hidden ${website && website.length > 0 ? "justify-between" : "justify-center"}`
+            class=`flex w-full flex-col items-center py-6 ${text.length >0 ? "sm:flex-row": ""} lg:hidden ${website && website.length > 0 ? "justify-between" : "justify-center"}`
           >
             <div class="flex w-fit flex-wrap lg:justify-center">
               {
