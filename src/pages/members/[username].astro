@@ -1,0 +1,255 @@
+---
+import GithubIcon from "../../../public/github.svg?raw";
+import InstagramIcon from "../../../public/instagram.svg?raw";
+import LinkedInIcon from "../../../public/linkedin.svg?raw";
+import Avatar from "../../components/Avatar.astro";
+import Badge from "../../components/Badge.astro";
+import Navbar from "../../components/Navbar.astro";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const pages = [
+    {
+      username: "soumitradev",
+      name: "Soumitra Shewale",
+      title: "Secretary",
+      text: "Here at cruX I mainly write web apps, do all the infra and automation work for them to make sure they stay up and running, and most important I make sure the trains run on time, projects are finished according to deadlines, and everyone's having fun.",
+      socials: [
+        {
+          name: "github",
+          link: "https://github.com/soumitradev",
+          icon: GithubIcon,
+        },
+        {
+          name: "linkedin",
+          link: "https://www.linkedin.com/in/soumitra-shewale/",
+          icon: LinkedInIcon,
+        },
+        {
+          name: "email",
+          link: "mailto:f20210781@hyderabad.bits-pilani.ac.in",
+          icon: InstagramIcon,
+        },
+      ],
+      avatar: "https://avatars.githubusercontent.com/u/36817910?v=4",
+      website: "https://soumi.dev/",
+      highlightedBadges: ["2021"],
+      badges: ["Web Dev", "Automation and Scripting"],
+    },
+    {
+      username: "grug_brained",
+      name: "Dharanikanth Reddy",
+      title: "Developer",
+      text: `apex predator of grug is complexity<br/>
+
+        complexity bad<br/>
+
+        say again:<br/>
+
+        complexity very bad<br/>
+
+        you say now:<br/>
+
+        complexity very, very bad`,
+      socials: [
+        {
+          name: "github",
+          link: "https://github.com/pnicto",
+          icon: GithubIcon,
+        },
+        {
+          name: "linkedin",
+          link: "https://www.linkedin.com/in/soumitra-shewale/",
+          icon: LinkedInIcon,
+        },
+        {
+          name: "email",
+          link: "mailto:f20210781@hyderabad.bits-pilani.ac.in",
+          icon: InstagramIcon,
+        },
+      ],
+      avatar: "https://avatars.githubusercontent.com/u/36817910?v=4",
+      highlightedBadges: ["2021"],
+      badges: ["Web Dev", "Automation and Scripting"],
+    },
+    {
+      username: "jasonag23",
+      name: "Jason Goveas",
+      title: "Developer",
+      text: "",
+      socials: [
+        {
+          name: "github",
+          link: "https://github.com/JustAGhost23",
+          icon: GithubIcon,
+        },
+        {
+          name: "linkedin",
+          link: "https://www.linkedin.com/in/soumitra-shewale/",
+          icon: LinkedInIcon,
+        },
+        {
+          name: "email",
+          link: "mailto:f20210781@hyderabad.bits-pilani.ac.in",
+          icon: InstagramIcon,
+        },
+      ],
+      avatar: "https://avatars.githubusercontent.com/u/36817910?v=4",
+      highlightedBadges: ["2021"],
+      badges: ["Web Dev", "Automation and Scripting"],
+    },
+  ];
+  return pages.map(
+    ({
+      username,
+      name,
+      title,
+      text,
+      socials,
+      avatar,
+      website,
+      highlightedBadges,
+      badges,
+    }) => {
+      return {
+        params: { username },
+        props: {
+          name,
+          title,
+          text,
+          socials,
+          avatar,
+          website,
+          highlightedBadges,
+          badges,
+        },
+      };
+    },
+  );
+}
+
+const {
+  name,
+  title,
+  text,
+  socials,
+  avatar,
+  website,
+  highlightedBadges,
+  badges,
+} = Astro.props;
+---
+
+<Layout title="CRUx BPHC - Members">
+  <main id="main" class="h-screen bg-background pb-28">
+    <Navbar />
+    <div class="flex h-full w-full flex-col items-center lg:pt-12 xl:pt-16">
+      <button
+        onclick="history.back();"
+        class="material-symbols-rounded absolute left-8 top-24 h-fit text-3xl font-bold text-foreground-muted transition-colors duration-200 hover:text-foreground sm:text-4xl md:left-20 md:top-36 lg:left-16 lg:top-36 xl:left-20 xl:top-40"
+        >arrow_back</button
+      >
+      <div
+        class="flex w-full justify-center pt-20 md:pt-36 lg:p-20 lg:pt-40 xl:w-2/3 xl:px-0 xl:pt-36"
+      >
+        <div
+          class="flex w-full flex-col items-center px-4 md:px-4 lg:w-1/2 lg:items-start"
+        >
+          <Avatar
+            imageURL={avatar}
+            style="lg:size-48 size-36 md:mb-6 mb-2 lg:hidden"
+          />
+          <span
+            class="text-2xl font-bold text-foreground-bright md:text-3xl lg:text-4xl"
+            >{name}</span
+          >
+          <span
+            class="text-xl font-semibold text-orange md:text-2xl lg:pb-4 lg:text-2xl"
+            >{title}</span
+          >
+          <div
+            class="flex w-full flex-col items-center justify-between py-6 sm:flex-row lg:hidden"
+          >
+            <div class="flex w-fit flex-wrap lg:justify-center">
+              {
+                highlightedBadges.map((badge) => (
+                  <Badge
+                    style="bg-orange text-orange-foreground mx-1 my-1"
+                    text={badge}
+                  />
+                ))
+              }
+              {
+                badges.map((badge) => (
+                  <Badge
+                    style="bg-orange text-orange-foreground mx-1 my-1"
+                    text={badge}
+                  />
+                ))
+              }
+            </div>
+            <a class="text-orange hover:underline" href={website}>{website}</a>
+          </div>
+          <p
+            class="w-full text-base text-foreground-bright md:text-lg lg:text-xl"
+          >
+            <Fragment set:html={text} />
+          </p>
+          <div
+            class=`flex w-full lg:space-x-10 sm:space-x-8 space-x-6 pt-8 pr-10 ${ text.length > 0 ? "justify-end": "justify-start"}`
+          >
+            {
+              socials.map((social) => (
+                <a
+                  href={social.link}
+                  target="_blank"
+                  class="size-6 sm:size-8 md:size-8 lg:size-10"
+                >
+                  <div class="size-6 rounded-full fill-foreground-muted transition duration-200 ease-in-out hover:fill-orange sm:size-8 md:size-8 lg:size-10">
+                    <Fragment
+                      set:html={social.icon}
+                      class="text-foreground-muted"
+                    />
+                  </div>
+                </a>
+              ))
+            }
+          </div>
+        </div>
+        <div class="hidden w-fit flex-col items-center pl-12 lg:flex xl:pl-16">
+          <Avatar
+            imageURL={avatar}
+            style="lg:size-48 size-36 hidden lg:block"
+          />
+          <div class="flex w-fit flex-wrap pt-4 lg:justify-center">
+            {
+              highlightedBadges.map((badge) => (
+                <Badge
+                  style="bg-orange text-orange-foreground mx-1 my-1"
+                  text={badge}
+                />
+              ))
+            }
+            {
+              badges.map((badge) => (
+                <Badge
+                  style="bg-orange text-orange-foreground mx-1 my-1"
+                  text={badge}
+                />
+              ))
+            }
+          </div>
+          <a class="mt-8 text-orange hover:underline" href={website}
+            >{website}</a
+          >
+        </div>
+      </div>
+      <div
+        class="absolute bottom-4 w-full snap-center text-center text-sm sm:text-lg"
+      >
+        <span class="text-foreground">© 2023 CRUx. Made by</span>
+        <span class="text-primary">CRUx Members</span>
+      </div>
+    </div>
+  </main>
+</Layout>
