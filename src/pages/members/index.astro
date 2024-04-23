@@ -24,7 +24,7 @@ import Logo from "../../../public/logoMainPage.svg?raw";
   <main id="main" class="relative pb-28">
     <Navbar />
     <div class="flex w-full flex-col items-center lg:pt-12 xl:pt-16">
-      <MemberCardTabs client:visible>
+      <MemberCardTabs client:load>
         {
           members
             .sort(
