@@ -20,7 +20,8 @@ import Logo from "../../public/logoMainPage.svg?raw";
     class="hidden h-full items-center justify-center space-x-12 sm:flex md:space-x-16 lg:space-x-24 xl:space-x-32"
   >
     {
-      Astro.url.pathname === "/achievements" ? (
+      Astro.url.pathname === "/achievements" ||
+      Astro.url.pathname === "/achievements/" ? (
         <span class="text-purple">Achievements</span>
       ) : (
         <a
@@ -32,7 +33,8 @@ import Logo from "../../public/logoMainPage.svg?raw";
       )
     }
     {
-      Astro.url.pathname === "/projects" ? (
+      Astro.url.pathname === "/projects" ||
+      Astro.url.pathname === "/projects/" ? (
         <span class="text-light-blue">Projects</span>
       ) : (
         <a
@@ -44,7 +46,8 @@ import Logo from "../../public/logoMainPage.svg?raw";
       )
     }
     {
-      Astro.url.pathname === "/members" ? (
+      Astro.url.pathname === "/members" ||
+      Astro.url.pathname === "/members/" ? (
         <span class="text-orange">Members & Alumni</span>
       ) : (
         <a
