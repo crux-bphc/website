@@ -3,6 +3,7 @@ import GithubIcon from "../../public/github.svg?raw";
 import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
 import Logo from "../../public/logoMainPage.svg?raw";
+import Footer from "../components/Footer.astro";
 import HomeCard from "../components/HomeCard.astro";
 import LandingPageMenu from "../components/LandingPageMenu.svelte";
 import Layout from "../layouts/Layout.astro";
@@ -130,10 +131,7 @@ import Layout from "../layouts/Layout.astro";
             ]}
           />
         </div>
-        <div class="absolute bottom-4 w-full text-center text-sm sm:text-lg">
-          <span class="text-foreground">© 2023 CRUx. Made by</span>
-          <span class="text-primary">CRUx Members</span>
-        </div>
+        <Footer />
       </div>
     </div>
   </main>
