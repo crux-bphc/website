@@ -5,5 +5,6 @@ import playformCompress from "@playform/compress";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), svelte(), playformCompress()]
+  integrations: [tailwind(), svelte(), playformCompress()],
+  trailingSlash: "never",
 });
