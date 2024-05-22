@@ -7,7 +7,7 @@ image: {
   url: "/crux.png",
   alt: "crux"
 }
-category: test
+category: dev
 ---
 
 # Hi there!
