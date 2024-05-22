@@ -37,8 +37,13 @@ const { Content } = await entry.render();
   <main id="main" class="relative pb-28 text-foreground">
     <Navbar />
     <div class="flex flex-col items-center">
+    <button
+      onclick="history.back();"
+      class="material-symbols-rounded absolute left-4 top-24 h-fit text-3xl font-bold text-foreground-muted transition-colors duration-200 hover:text-foreground sm:text-4xl md:top-18 lg:left-16 lg:top-24 xl:left-20 xl:top-40"
+      >arrow_back</button
+    >
     <div class="w-full lg:w-11/12 xl:w-9/12 text-xl">
-      <div class="flex flex-col lg:pt-20 pt-12 pb-8 px-4">
+      <div class="flex flex-col lg:pt-24 pt-24 pb-8 px-4">
         <span class="font-black text-foreground-bright text-4xl sm:text-5xl">{entry.data.title}</span>
         <span class="font-normal text-foreground-muted text-lg sm:text-xl pt-4">{entry.data.description}</span>
         <div class="pt-4">
