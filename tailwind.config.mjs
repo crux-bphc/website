@@ -8,6 +8,14 @@ export default {
       "sans": ["Roboto Flex", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
     },
     extend: {
+      screens: {
+        'landscape': {
+          'raw': '(orientation: landscape)',
+        },
+        'thin': {
+           'raw': '(max-height: 720px)'
+        },
+      },
       colors: {
         // Background of pages
         background: "#071731",
