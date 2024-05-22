@@ -10,7 +10,29 @@ const { title } = Astro.props;
 <html lang="en" style="scroll-behavior: smooth;">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta
+      name="description"
+      content="The Programming and Computing Club of BITS Pilani, Hyderabad Campus. Dedicated to bettering computing skill on campus by developing open-source software, participating in Competitive Programming and Capture-The-Flag events."
+    />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:site_name" content="CRUx BPHC" />
+    <meta property="og:url" content="https://crux-bphc.com" />
+    <meta
+      property="og:description"
+      content="CRUx BPHC - The Programming and Computing Club of BITS Pilani, Hyderabad Campus"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://crux-bphc.com/crux.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CRUx BPHC" />
+    <meta
+      name="twitter:description"
+      content="CRUx BPHC - The Programming and Computing Club of BITS Pilani, Hyderabad Campus"
+    />
+    <meta name="twitter:image" content="https://crux-bphc.com/crux.png" />
+
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
