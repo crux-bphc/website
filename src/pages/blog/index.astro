@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Navbar from "../../components/Navbar.astro";
+import Logo from "../../../public/logoMainPage.svg?raw";
+import Footer from "../../components/Footer.astro";
+import { Image } from "astro:assets";
+
+const blogEntries = await getCollection('posts');
+const blogCategories = [...new Set(blogEntries.map((item) => item.data.category))];
+---
+
+<Layout title='Blog'>
+  <div class="fixed left-0 top-0 size-full bg-background"></div>
+  <div class="fixed -right-24 -top-16 z-0 flex opacity-20 blur">
+    <div
+      class="size-64 text-foreground-bright opacity-45 md:size-72 lg:size-96"
+    >
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <div class="fixed -bottom-20 -left-20 z-0 flex opacity-20 blur">
+    <div
+      class="size-64 text-foreground-bright opacity-45 md:size-72 lg:size-96"
+    >
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <main id="main" class="relative pb-28 text-foreground">
+    <Navbar />
+    <div class="flex flex-col items-center">
+    <div class="w-full lg:w-11/12 xl:w-9/12 text-xl">
+      <div class="flex flex-col lg:pt-20 pt-12 pb-8 sm:px-8 px-6">
+        <span class="font-black text-foreground-bright text-4xl sm:text-5xl pb-8">Blog</span>
+        {
+          blogCategories.map((category) =>
+            <div class="pb-8">
+              <span class="font-bold text-foreground-bright text-3xl sm:text-4xl">{category}</span>
+              <ul class="flex flex-col space-y-4 pt-4">
+                {
+                  blogEntries.filter(x => x.data.category === category).map((item) =>
+                    <li>
+                      <a href={`/blog/${item.slug}`}>
+                        <div class="w-full relative sm:py-8 py-6 rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% text-foreground">
+                          <div class="flex flex-col space-y-2 sm:w-10/12 w-full sm:px-6 px-2">
+                            <span class="text-lg sm:text-2xl md:text-3xl font-bold px-4">{item.data.title}</span>
+                            <span class="text-sm md:text-xl font-bold text-foreground-muted pl-4">By {item.data.author} - {(item.data.pubDate).toLocaleDateString()}</span>
+                            <span class="hidden md:inline text-sm md:text-xl font-normal text-foreground-muted pl-4">{item.data.description}</span>
+                          </div>
+                          {
+                            item.data.image &&
+                              <Image
+                                src={item.data.image.url}
+                                alt={item.data.image.alt}
+                                class="w-2/12 sm:block hidden object-cover rounded-r-xl absolute h-full right-0 top-0"
+                                width="1920"
+                                height="1200"
+                              />
+                          }
+                        </div>
+                      </a>
+                    </li>
+                  )
+                }
+              </ul>
+            </div>
+          )
+        }
+      </div>
+    </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>
