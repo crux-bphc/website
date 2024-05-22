@@ -26,6 +26,11 @@ import Layout from "../layouts/Layout.astro";
           <Fragment set:html={Logo} />
         </div>
       </div>
+      <button
+        onclick="document.getElementById('club-about').scrollIntoView()"
+        class="material-symbols-rounded absolute inset-x-0 bottom-24 mx-auto w-fit rounded-full bg-foreground-muted/20 p-4 text-foreground transition-colors duration-200 ease-in-out hover:bg-foreground-muted/30"
+        >arrow_downward</button
+      >
       <div class="-z-50 flex h-[calc(100dvh-4rem)] w-full bg-background"></div>
       <div
         class="sticky -top-16 z-50 flex h-0 w-full items-center justify-start text-2xl font-bold text-foreground-muted"
@@ -34,6 +39,7 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
     <div
+      id="club-about"
       class="sticky top-0 z-40 h-16 w-full select-none bg-navbar font-bold text-foreground-muted md:text-xl lg:text-2xl"
     >
       <div class="absolute left-8 top-0 flex h-16 items-center lg:left-16">
@@ -66,7 +72,7 @@ import Layout from "../layouts/Layout.astro";
     <div
       class="z-30 w-full rounded-xl bg-transparent backdrop-blur-xl backdrop-brightness-[80%]"
     >
-      <div class="z-30 h-[75dvh] snap-center md:h-screen">
+      <div class="z-30 h-[75dvh] snap-center md:h-[80dvh]">
         <div
           class="absolute left-8 top-20 z-30 sm:left-20 sm:top-20 md:left-36 md:top-36"
         >
