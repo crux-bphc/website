@@ -1,0 +1,75 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import { fade } from "astro:transitions";
+
+interface Props {
+  frontmatter: { description: string; title: string; pubDate: Date; author: string; image?: { url: string; alt: string; } | undefined; };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content={frontmatter.description}
+    />
+
+    <meta property="og:title" content=`CRUx BPHC - ${frontmatter.title}` />
+    <meta property="og:site_name" content="CRUx BPHC - Blog" />
+    <meta property="og:url" content="https://crux-bphc.com" />
+    <meta
+      property="og:description"
+      content={frontmatter.description}
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content=`https://crux-bphc.com/${frontmatter.image ? frontmatter.image.url : "crux.png"}` />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content=`CRUx BPHC - ${frontmatter.title}` />
+    <meta
+      name="twitter:description"
+      content={frontmatter.description}
+    />
+    <meta name="twitter:image" content=`https://crux-bphc.com/${frontmatter.image ? frontmatter.image.url : "crux.png"}` />
+
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>{`CRUx BPHC - ${frontmatter.title}`}</title>
+
+    <ViewTransitions />
+  </head>
+  <body
+    style="background-color: #071731;"
+    transition:animate={fade({ duration: "0.2s" })}
+  >
+    <slot />
+    <style>
+      html {
+        font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo,
+          Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      }
+    </style>
+  </body>
+</html>
