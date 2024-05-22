@@ -19,10 +19,10 @@ import Layout from "../layouts/Layout.astro";
         >
       </div>
       <div
-        class="fixed left-0 top-0 z-0 flex h-screen w-full items-center justify-center"
+        class="fixed left-0 top-0 z-0 flex h-dvh w-full items-center justify-center"
       >
         <div
-          class="size-56 text-foreground-bright opacity-45 sm:size-72 md:size-96"
+          class="size-56 text-foreground-bright opacity-45 sm:size-72 md:size-96 landscape:size-56 landscape:lg:size-96"
         >
           <Fragment set:html={Logo} />
         </div>
@@ -73,7 +73,9 @@ import Layout from "../layouts/Layout.astro";
     <div
       class="z-30 w-full rounded-xl bg-transparent backdrop-blur-xl backdrop-brightness-[80%]"
     >
-      <div class="z-30 h-[75dvh] snap-center md:h-[80dvh]">
+      <div
+        class="landscape:thin:h-[90dvw] z-30 h-[75dvh] snap-center md:h-[80dvh]"
+      >
         <div
           class="absolute left-8 top-20 z-30 sm:left-20 sm:top-20 md:left-36 md:top-36"
         >
