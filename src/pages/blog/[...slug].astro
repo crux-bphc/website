@@ -4,6 +4,7 @@ import BlogLayout from '../../layouts/BlogLayout.astro';
 import Navbar from "../../components/Navbar.astro";
 import Logo from "../../../public/logoMainPage.svg?raw";
 import BlogContent from '../../components/BlogContent.astro';
+import Footer from "../../components/Footer.astro";
 import { Image } from "astro:assets";
 
 export async function getStaticPaths() {
@@ -61,5 +62,6 @@ const { Content } = await entry.render();
       </BlogContent>
     </div>
     </div>
+    <Footer />
   </main>
 </BlogLayout>
