@@ -22,6 +22,9 @@ export default {
         'thin': {
            'raw': '(max-height: 720px)'
         },
+        'xxl': {
+           'raw': '(min-width: 1456px)'
+        },
       },
       colors: {
         // Background of pages
