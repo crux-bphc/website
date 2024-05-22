@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import Navbar from "../../components/Navbar.astro";
+import Logo from "../../../public/logoMainPage.svg?raw";
+import BlogContent from '../../components/BlogContent.astro';
+import { Image } from "astro:assets";
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('posts');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<BlogLayout frontmatter={entry.data}>
+  <div class="fixed left-0 top-0 size-full bg-background"></div>
+  <div class="fixed -right-24 -top-16 z-0 flex opacity-20 blur">
+    <div
+      class="size-64 text-foreground-bright opacity-45 md:size-72 lg:size-96"
+    >
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <div class="fixed -bottom-20 -left-20 z-0 flex opacity-20 blur">
+    <div
+      class="size-64 text-foreground-bright opacity-45 md:size-72 lg:size-96"
+    >
+      <Fragment set:html={Logo} />
+    </div>
+  </div>
+  <main id="main" class="relative pb-28 text-foreground">
+    <Navbar />
+    <div class="flex flex-col items-center">
+    <div class="w-full lg:w-11/12 xl:w-9/12 text-xl">
+      <div class="flex flex-col lg:pt-20 pt-12 pb-8 px-4">
+        <span class="font-black text-foreground-bright text-4xl sm:text-5xl">{entry.data.title}</span>
+        <span class="font-normal text-foreground-muted text-lg sm:text-xl pt-4">{entry.data.description}</span>
+        <div class="pt-4">
+          <span class="font-normal text-foreground-muted text-lg sm:text-xl">{`By ${entry.data.author}`}</span>
+          <span class="font-normal text-foreground-muted/60 text-lg sm:text-xl">- {(entry.data.pubDate).toLocaleDateString()}</span>
+        </div>
+        {
+          entry.data.image &&
+          <div class="flex w-full justify-center">
+          <Image
+            src={entry.data.image.url}
+            alt={entry.data.image.alt}
+            class="w-4/5 rounded-md pt-4"
+            width="1920"
+            height="1200"
+          /></div>
+        }
+      </div>
+      <BlogContent>
+        <Content />
+      </BlogContent>
+    </div>
+    </div>
+  </main>
+</BlogLayout>
