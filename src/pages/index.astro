@@ -2,6 +2,7 @@
 import GithubIcon from "../../public/github.svg?raw";
 import InstagramIcon from "../../public/instagram.svg?raw";
 import LinkedInIcon from "../../public/linkedin.svg?raw";
+import MailIcon from "../../public/mail.svg?raw";
 import Logo from "../../public/logoMainPage.svg?raw";
 import Footer from "../components/Footer.astro";
 import HomeCard from "../components/HomeCard.astro";
@@ -105,6 +106,10 @@ import Layout from "../layouts/Layout.astro";
                   svg: LinkedInIcon,
                   href: "https://www.linkedin.com/company/crux-bphc?originalSubdomain=in",
                 },
+                {
+                  svg: MailIcon,
+                  href: "mailto:crux@hyderabad.bits-pilani.ac.in",
+                },
               ].map((icon) => (
                 <a href={icon.href} target="_blank">
                   <div class="size-6 rounded-full fill-foreground-muted transition duration-200 ease-in-out hover:fill-primary sm:size-8 md:size-10 lg:size-12">
@@ -142,6 +147,10 @@ import Layout from "../layouts/Layout.astro";
               {
                 svg: LinkedInIcon,
                 href: "https://www.linkedin.com/company/crux-bphc?originalSubdomain=in",
+              },
+              {
+                svg: MailIcon,
+                href: "mailto:crux@hyderabad.bits-pilani.ac.in",
               },
             ]}
           />
