@@ -2,7 +2,12 @@
   import { fly } from "svelte/transition";
   import { cubicOut } from "svelte/easing";
 
-  export let imageURLs: string[];
+  interface Image {
+    imageURL: string;
+    href: string;
+  }
+
+  export let images: Image[];
   export let style: string;
   export let maxElements: number;
   export let size: number;
@@ -29,12 +34,15 @@
       setTimeout(res, ms);
     });
 
-  const images: string[] = [];
+  const displayedImages: Image[] = [];
   const adjustImages = async () => {
-    position = position > 0 ? position : imageURLs.length + position;
-    position %= imageURLs.length;
+    position = position > 0 ? position : images.length + position;
+    position %= images.length;
     for (let i = 0; i < maxElements + 2; i++) {
-      images[i] = imageURLs[(position + i) % imageURLs.length] ?? "";
+      displayedImages[i] = images[(position + i) % images.length] ?? {
+        href: "",
+        imageURL: "",
+      };
     }
   };
 
@@ -78,16 +86,23 @@
           easing: cubicOut,
         }}
       >
-        {#each images as imageURL}
-          <img
-            src={imageURL}
-            width={`${size * 4}px`}
-            sizes={`${size * 4}px, (min-width: 640px) ${smallSize * 4}px, (${mediumSize * 4}px`}
-            loading="lazy"
-            decoding="async"
-            class={`rounded-full ${style} size-[calc(var(--image-size))] sm:size-[calc(var(--small-image-size))] md:size-[calc(var(--medium-image-size))]`}
-            alt={imageURL}
-          />
+        {#each displayedImages as image}
+          <a
+            href={image.href}
+            rel="noopener noreferrer"
+            target="_blank"
+            class={`size-[${size * 4}px] size-[calc(var(--image-size))] rounded-full sm:size-[calc(var(--small-image-size))] md:size-[calc(var(--medium-image-size))]`}
+          >
+            <img
+              src={image.imageURL}
+              width={`${size * 4}px`}
+              sizes={`${size * 4}px, (min-width: 640px) ${smallSize * 4}px, (${mediumSize * 4}px`}
+              loading="lazy"
+              decoding="async"
+              class={`rounded-full ${style} size-[calc(var(--image-size))] sm:size-[calc(var(--small-image-size))] md:size-[calc(var(--medium-image-size))]`}
+              alt={image.href}
+            />
+          </a>
         {/each}
       </div>
     {/key}
