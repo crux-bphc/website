@@ -59,5 +59,16 @@
         Members & Alumni
       </a>
     {/if}
+
+    {#if path === "/blog"}
+      <span class="text-primary">Blog</span>
+    {:else}
+      <a
+        class="text-foreground-muted transition-all duration-200 hover:text-primary hover:underline"
+        href="/blog"
+      >
+        Blog
+      </a>
+    {/if}
   </div>
 {/if}

@@ -8,6 +8,13 @@ export default {
       "sans": ["Roboto Flex", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
     },
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100vw', // add required value here
+          }
+        }
+      },
       screens: {
         'landscape': {
           'raw': '(orientation: landscape)',
@@ -61,5 +68,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
