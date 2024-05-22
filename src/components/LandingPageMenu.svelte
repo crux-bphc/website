@@ -41,5 +41,11 @@
     >
       Members & Alumni
     </a>
+    <a
+      class="text-foreground-muted transition-all duration-200 hover:text-primary hover:underline"
+      href="/blog"
+    >
+      Blog
+    </a>
   </div>
 {/if}
