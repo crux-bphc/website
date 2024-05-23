@@ -55,10 +55,7 @@ const { Content } = await entry.render();
         let mybutton = document.getElementById("jump-to-top-button");
 
         const scrollFunction = () => {
-          console.log("bruh");
-          if (mybutton === null) {
-            console.log("lol!!!");
-          }
+          if (mybutton === null) return;
           if (
             document.body.scrollTop > 20 ||
             document.documentElement.scrollTop > 20
