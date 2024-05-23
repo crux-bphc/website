@@ -3,38 +3,41 @@ import { ViewTransitions } from "astro:transitions";
 import { fade } from "astro:transitions";
 
 interface Props {
-  frontmatter: { description: string; title: string; pubDate: Date; author: string; image?: { url: string; alt: string; } | undefined; };
+  frontmatter: {
+    description: string;
+    title: string;
+    pubDate: Date;
+    author: string;
+    image?: { url: string; alt: string } | undefined;
+  };
 }
 
 const { frontmatter } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content={frontmatter.description}
-    />
+    <meta name="description" content={frontmatter.description} />
 
     <meta property="og:title" content=`CRUx BPHC - ${frontmatter.title}` />
     <meta property="og:site_name" content="CRUx BPHC - Blog" />
     <meta property="og:url" content="https://crux-bphc.com" />
-    <meta
-      property="og:description"
-      content={frontmatter.description}
-    />
+    <meta property="og:description" content={frontmatter.description} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content=`https://crux-bphc.com/${frontmatter.image ? frontmatter.image.url : "crux.png"}` />
+    <meta
+      property="og:image"
+      content=`https://crux-bphc.com/${frontmatter.image ? frontmatter.image.url : "crux.png"}`
+    />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content=`CRUx BPHC - ${frontmatter.title}` />
+    <meta name="twitter:description" content={frontmatter.description} />
     <meta
-      name="twitter:description"
-      content={frontmatter.description}
+      name="twitter:image"
+      content=`https://crux-bphc.com/${frontmatter.image ? frontmatter.image.url : "crux.png"}`
     />
-    <meta name="twitter:image" content=`https://crux-bphc.com/${frontmatter.image ? frontmatter.image.url : "crux.png"}` />
 
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -59,10 +62,11 @@ const { frontmatter } = Astro.props;
     <title>{`CRUx BPHC - ${frontmatter.title}`}</title>
 
     <ViewTransitions />
-  </head>
-  <body
+  </head><body
     style="background-color: #071731;"
+    id="body"
     transition:animate={fade({ duration: "0.2s" })}
+    onscroll="scrollFunction()"
   >
     <slot />
     <style>

@@ -1,16 +1,17 @@
 ---
-import { getCollection } from 'astro:content';
-import BlogLayout from '../../layouts/BlogLayout.astro';
+import { getCollection } from "astro:content";
+import BlogLayout from "../../layouts/BlogLayout.astro";
 import Navbar from "../../components/Navbar.astro";
 import Logo from "../../../public/logoMainPage.svg?raw";
-import BlogContent from '../../components/BlogContent.astro';
+import BlogContent from "../../components/BlogContent.astro";
 import Footer from "../../components/Footer.astro";
 import { Image } from "astro:assets";
 
 export async function getStaticPaths() {
-  const blogEntries = await getCollection('posts');
-  return blogEntries.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
+  const blogEntries = await getCollection("posts");
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
 
@@ -37,35 +38,73 @@ const { Content } = await entry.render();
   <main id="main" class="relative pb-28 text-foreground">
     <Navbar />
     <div class="flex flex-col items-center">
-    <button
-      onclick="history.back();"
-      class="material-symbols-rounded absolute left-4 top-24 h-fit text-3xl font-bold text-foreground-muted transition-colors duration-200 hover:text-foreground sm:text-4xl md:top-18 lg:left-16 lg:top-24 xl:left-20 xl:top-40"
-      >arrow_back</button
-    >
-    <div class="w-full lg:w-11/12 xl:w-9/12 text-xl">
-      <div class="flex flex-col lg:pt-24 pt-24 pb-8 px-4">
-        <span class="font-black text-foreground-bright text-4xl sm:text-5xl">{entry.data.title}</span>
-        <span class="font-normal text-foreground-muted text-lg sm:text-xl pt-4">{entry.data.description}</span>
-        <div class="pt-4">
-          <span class="font-normal text-foreground-muted text-lg sm:text-xl">{`By ${entry.data.author}`}</span>
-          <span class="font-normal text-foreground-muted/60 text-lg sm:text-xl">- {(entry.data.pubDate).toLocaleDateString()}</span>
+      <button
+        id="back-button"
+        onclick="history.back();"
+        class="material-symbols-rounded md:top-18 absolute left-4 top-24 h-fit text-3xl font-bold text-foreground-muted transition-colors duration-200 hover:text-foreground sm:text-4xl lg:left-16 lg:top-24 xl:left-20 xl:top-40"
+        >arrow_back</button
+      >
+
+      <button
+        id="jump-to-top-button"
+        onclick="document.getElementById('body').scrollIntoView()"
+        class="material-symbols-rounded fixed bottom-16 right-16 hidden w-fit rounded-full bg-foreground-muted/40 p-4 text-foreground-bright transition-all duration-200 ease-in-out hover:bg-foreground-muted/60"
+        >arrow_upward</button
+      >
+      <script is:inline>
+        let mybutton = document.getElementById("jump-to-top-button");
+
+        const scrollFunction = () => {
+          console.log("bruh");
+          if (mybutton === null) {
+            console.log("lol!!!");
+          }
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        };
+      </script>
+      <div class="w-full text-xl lg:w-11/12 xl:w-9/12">
+        <div class="flex flex-col px-4 pb-8 pt-24 lg:pt-24">
+          <span class="text-4xl font-black text-foreground-bright sm:text-5xl"
+            >{entry.data.title}</span
+          >
+          <span
+            class="pt-4 text-lg font-normal text-foreground-muted sm:text-xl"
+            >{entry.data.description}</span
+          >
+          <div class="pt-4">
+            <span class="text-lg font-normal text-foreground-muted sm:text-xl"
+              >{`By ${entry.data.author}`}</span
+            >
+            <span
+              class="text-lg font-normal text-foreground-muted/60 sm:text-xl"
+              >- {entry.data.pubDate.toLocaleDateString()}</span
+            >
+          </div>
+          {
+            entry.data.image && (
+              <div class="flex w-full justify-center">
+                <Image
+                  src={entry.data.image.url}
+                  alt={entry.data.image.alt}
+                  class="w-4/5 rounded-md pt-4"
+                  width="1920"
+                  height="1200"
+                />
+              </div>
+            )
+          }
         </div>
-        {
-          entry.data.image &&
-          <div class="flex w-full justify-center">
-          <Image
-            src={entry.data.image.url}
-            alt={entry.data.image.alt}
-            class="w-4/5 rounded-md pt-4"
-            width="1920"
-            height="1200"
-          /></div>
-        }
+        <BlogContent>
+          <Content />
+        </BlogContent>
       </div>
-      <BlogContent>
-        <Content />
-      </BlogContent>
-    </div>
     </div>
     <Footer />
   </main>
