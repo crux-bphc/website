@@ -1,288 +1,685 @@
 [
   {
-    "username": "soumitradev",
-    "name": "Soumitra Shewale",
-    "title": "Secretary",
-    "text": "Here at cruX I mainly write web apps, do all the infra and automation work for them to make sure they stay up and running, and most important I make sure the trains run on time, projects are finished according to deadlines, and everyone's having fun.",
-    "socials": [
-      { "name": "github", "link": "https://github.com/soumitradev" },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/soumitra-shewale/"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20210781@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "avatar": "https://avatars.githubusercontent.com/u/36817910?v=4",
-    "website": "https://soumi.dev/",
-    "highlightedBadges": ["2021", "Senate '23-24"],
-    "badges": ["Web Dev", "Automation and Scripting"]
-  },
-  {
-    "username": "grug_brained",
-    "name": "Dharanikanth Reddy",
-    "title": "Developer",
-    "text": "apex predator of grug is complexity<br/>complexity bad<br/>say again:<br/>complexity <i>very</i> bad<br/>you say now:<br/>complexity <i>very, very</i> bad",
-    "socials": [
-      { "name": "github", "link": "https://github.com/pnicto" },
-      {
-        "name": "linkedin",
-        "link": "https://in.linkedin.com/in/dharanikanth-reddy-9386b623b"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20210264@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "avatar": "https://avatars.githubusercontent.com/u/77240155?v=4",
-    "website": "https://pnicto.github.io/",
-    "highlightedBadges": ["2021"],
-    "badges": ["Web Dev", "Automation and Scripting"]
-  },
-  {
-    "username": "jasonag23",
-    "name": "Jason Goveas",
-    "title": "Developer",
-    "text": "",
-    "socials": [
-      { "name": "github", "link": "https://github.com/JustAGhost23" },
-      {
-        "name": "linkedin",
-        "link": "https://in.linkedin.com/in/jason-goveas-290a2a284"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20210237@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "avatar": "https://avatars.githubusercontent.com/u/95233082?v=4",
-    "highlightedBadges": ["2021"],
-    "badges": ["Web Dev", "App Dev"]
-  },
-  {
-    "username": "srikant",
-    "name": "Srikant Tangirala",
-    "title": "Developer",
-    "text": "BPHC '24 | 23' Summer Intern @ DevRev",
-    "socials": [
-      { "name": "github", "link": "https://github.com/plaidbait91" },
-      {
-        "name": "linkedin",
-        "link": "https://in.linkedin.com/in/srikant-tangirala-b0090b211"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20200055@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "avatar": "https://avatars.githubusercontent.com/u/75108809?v=4",
-    "highlightedBadges": ["2020", "Senate '22-23"],
-    "badges": ["App Dev"]
-  },
-  {
-    "username": "vaddiraju",
-    "name": "Varun Vaddiraju",
+    "username": "wizard416",
+    "name": "Eshaan Sudan",
     "title": "Competitive Programmer",
     "text": "",
+    "avatar": "https://userpic.codeforces.org/2853626/title/807556e562e515f0.jpg",
     "socials": [
-      { "name": "github", "link": "https://github.com/Dosto3vsky" },
+      {
+        "name": "github",
+        "link": "https://github.com/Eshaan416"
+      },
       {
         "name": "linkedin",
-        "link": "https://in.linkedin.com/in/varun-vaddiraju-525a09248"
+        "link": "https://www.linkedin.com/in/eshaan-sudan-4b23b7253/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/wiz416"
       },
       {
         "name": "email",
-        "link": "mailto:f20200173@hyderabad.bits-pilani.ac.in"
+        "link": "mailto:sudaneshaan@gmail.com"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/91046705?v=4",
-    "highlightedBadges": ["2020", "Senate '22-23"],
-    "badges": ["Competitive Programming"]
+    "badges": ["Competitive Programming"],
+    "highlightedBadges": ["2022", "Member"]
   },
   {
-    "username": "aayushi",
-    "name": "Aayushi Sah",
-    "title": "Developer",
-    "text": "Certum Quod Factum",
+    "username": "skoriop",
+    "name": "Karthik Prakash",
+    "title": "Secretary",
+    "text": "todo: insert something unfunny here",
+    "avatar": "https://avatars.githubusercontent.com/u/116057817?s=400&u=23a82d6a0f5cd490fd612143d0f4e0dda8ede043&v=4",
     "socials": [
-      { "name": "github", "link": "https://github.com/aayushisah" },
+      {
+        "name": "github",
+        "link": "https://github.com/skoriop"
+      },
       {
         "name": "linkedin",
-        "link": "https://in.linkedin.com/in/aayushi-sah"
+        "link": "https://www.linkedin.com/in/karthik-prakash-a6a401261/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/skoriop"
       },
       {
         "name": "email",
-        "link": "mailto:f20202238@hyderabad.bits-pilani.ac.in"
+        "link": "mailto:karthikp.ivy@gmail.com"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/88141650?v=4",
-    "highlightedBadges": ["2020", "Senate '22-23"],
-    "badges": ["Game Dev"]
+    "badges": ["Web Dev", "CTF", "Competitive Programming"],
+    "highlightedBadges": ["2022", "Senate"]
+  },
+  {
+    "username": "humblebuzz",
+    "name": "Varun Reddy Padala",
+    "title": "Secretary",
+    "text": "I'm a competitive programmer who spends more time coming up with creative names for new secret Codeforces accounts than actually solving problems. At CRUx, I occasionally help out with conducting workshops and fun competitions. At home, I can finish a TV series in a day and love playing vidya gaems on my console. Little known fact about me - I have had five Reddit accounts banned from the site.",
+    "avatar": "https://imgur.com/a/aDTJio1",
+    "website": "https://varun-reddy-2673.github.io/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Varun-Reddy-2673"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/varun-reddy-padala-a45717263/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/Humblebuzz"
+      },
+      {
+        "name": "email",
+        "link": "mailto:varun.reddy.2673@gmail.com"
+      }
+    ],
+    "badges": ["Competitive Programming"],
+    "highlightedBadges": ["2022", "Senate"]
+  },
+  {
+    "username": "Saphereye",
+    "name": "Adarsh Das",
+    "title": "Developer",
+    "text": "Godot enjoyer ☕, Avid rustacean 🦀, Arch user (BTW) 🐧, Professional Bug Writer ✍️",
+    "avatar": "https://saphereye.github.io/dp.jpeg",
+    "website": "https://saphereye.github.io/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Saphereye"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/adarsh-das-8684ab240/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:adarshdas950@gmail.com"
+      }
+    ],
+    "badges": ["Game Dev"],
+    "highlightedBadges": ["2021", "Member"]
+  },
+  {
+    "username": "CWSwastik",
+    "name": "Swastik Goswami",
+    "title": "Developer",
+    "text": "",
+    "avatar": "https://i.imgur.com/BqiAnVc.png",
+    "website": "https://codewithswastik.github.io/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/CWSwastik"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/cwswastik/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/cwswastik"
+      },
+      {
+        "name": "email",
+        "link": "mailto:cwswastik2005@gmail.com"
+      }
+    ],
+    "badges": ["Web Dev", "Automation & Scripting"],
+    "highlightedBadges": ["2023", "Member"]
   },
   {
     "username": "majimearun",
-    "name": "Arunachala A.M.",
-    "title": "President",
-    "text": "CS undergrad @ BITS Pilani, Hyderabad Campus || Software Developer",
+    "name": "Arunachala Amuda Murugan",
+    "title": "Developer",
+    "text": "",
+    "avatar": "https://drive.google.com/file/d/1P4LzDd-9SGjm5wxB9lhektbOwMRIghPJ/view?usp=sharing",
+    "website": "majimearun.com",
     "socials": [
-      { "name": "github", "link": "https://github.com/majimearun" },
+      {
+        "name": "github",
+        "link": "https://github.com/majimearun"
+      },
       {
         "name": "linkedin",
         "link": "https://www.linkedin.com/in/arunachala-am/"
-      },
-      {
-        "name": "email",
-        "link": "mailto:arunachala0619@gmail.com"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/60971499?v=4",
-    "website": "https://www.majimearun.com/",
-    "highlightedBadges": ["2021", "Senate '23-24"],
-    "badges": ["Machine Learning", "Automation and Scripting", "Web Dev"]
+    "badges": ["Web Dev", "Machine Learning", "Automation & Scripting"],
+    "highlightedBadges": ["2021", "Member"]
   },
   {
-    "username": "soumitradev 2",
-    "name": "Soumitra Shewale 2",
-    "title": "Secretary",
-    "text": "Here at cruX I mainly write web apps, do all the infra and automation work for them to make sure they stay up and running, and most important I make sure the trains run on time, projects are finished according to deadlines, and everyone's having fun.",
-    "socials": [
-      { "name": "github", "link": "https://github.com/soumitradev" },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/soumitra-shewale/"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20210781@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "avatar": "https://avatars.githubusercontent.com/u/36817910?v=4",
-    "website": "https://soumi.dev/",
-    "highlightedBadges": ["2021", "Senate '23-24"],
-    "badges": ["Web Dev", "Automation and Scripting"]
-  },
-  {
-    "username": "grug_brained 2",
-    "name": "Dharanikanth Reddy 2",
-    "title": "Developer",
-    "text": "apex predator of grug is complexity<br/>complexity bad<br/>say again:<br/>complexity <i>very</i> bad<br/>you say now:<br/>complexity <i>very, very</i> bad",
-    "socials": [
-      { "name": "github", "link": "https://github.com/pnicto" },
-      {
-        "name": "linkedin",
-        "link": "https://in.linkedin.com/in/dharanikanth-reddy-9386b623b"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20210264@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "avatar": "https://avatars.githubusercontent.com/u/77240155?v=4",
-    "website": "https://pnicto.github.io/",
-    "highlightedBadges": ["2021"],
-    "badges": ["Web Dev", "Automation and Scripting"]
-  },
-  {
-    "username": "jasonag23 2",
-    "name": "Jason Goveas 2",
+    "username": "okaybro",
+    "name": "Chaitanya Keyal",
     "title": "Developer",
     "text": "",
+    "avatar": "https://avatars.githubusercontent.com/Chaitanya-Keyal",
     "socials": [
-      { "name": "github", "link": "https://github.com/JustAGhost23" },
+      {
+        "name": "github",
+        "link": "https://github.com/Chaitanya-Keyal"
+      },
       {
         "name": "linkedin",
-        "link": "https://in.linkedin.com/in/jason-goveas-290a2a284"
+        "link": "https://www.linkedin.com/in/chaitanya-keyal"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/okaybro"
       },
       {
         "name": "email",
-        "link": "mailto:f20210237@hyderabad.bits-pilani.ac.in"
+        "link": "mailto:chaitanyakeyal@gmail.com"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/95233082?v=4",
-    "highlightedBadges": ["2021"],
-    "badges": ["Web Dev", "App Dev"]
+    "badges": ["Machine Learning", "Automation & Scripting"],
+    "highlightedBadges": ["2023", "Member"]
   },
   {
-    "username": "srikant 2",
-    "name": "Srikant Tangirala 2",
+    "username": "RedGreninja",
+    "name": "Kishan Abijay",
     "title": "Developer",
-    "text": "BPHC '24 | 23' Summer Intern @ DevRev",
+    "text": "Love coding and music. Mostly into typescript.",
+    "avatar": "https://drive.google.com/file/d/17IVvu6bgvqiEVpyOn2fLXzYci1o2iDW5/view?usp=sharing",
     "socials": [
-      { "name": "github", "link": "https://github.com/plaidbait91" },
+      {
+        "name": "github",
+        "link": "https://github.com/kishan1735"
+      },
       {
         "name": "linkedin",
-        "link": "https://in.linkedin.com/in/srikant-tangirala-b0090b211"
+        "link": "https://wwww.linkedin.com/in/kishan-abijay-4b778a168/"
       },
       {
         "name": "email",
-        "link": "mailto:f20200055@hyderabad.bits-pilani.ac.in"
+        "link": "mailto:f20220037@hyderabad.bits-pilani.ac.in"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/75108809?v=4",
-    "highlightedBadges": ["2020", "Senate '22-23"],
-    "badges": ["App Dev"]
+    "badges": ["Web Dev"],
+    "highlightedBadges": ["2022", "Member"]
   },
   {
-    "username": "vaddiraju 2",
-    "name": "Varun Vaddiraju 2",
+    "username": "poisonpwn",
+    "name": "Adithyadev R",
+    "title": "Developer",
+    "text": "Like to make stuff and break stuff. I'm into Python, Systems dev (I ❤️ Rust), Linux, and a bunch of other things.",
+    "avatar": "https://avatars.githubusercontent.com/u/45178461?s=400&u=9b01437588190d10d9edba8475d70f6ae52951cb&v=4",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/poisonpwn"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/adithyadev-rajesh-8b3298220"
+      }
+    ],
+    "badges": ["Automation & Scripting", "Functional Programming"],
+    "highlightedBadges": ["2023", "Member"]
+  },
+  {
+    "username": "TheComputerM",
+    "name": "Mudit Somani",
+    "title": "President",
+    "text": "01101100 01100001 01101101 01101111 00100000 01101110 01100101 01110010 01100100 00001010",
+    "avatar": "https://avatars.githubusercontent.com/u/24741538",
+    "website": "https://thecomputerm.dev/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/TheComputerM"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/mudit-somani-488689254/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/thecomputerm"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20220149@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "badges": ["Web Dev", "App Dev"],
+    "highlightedBadges": ["2022", "Senate"]
+  },
+  {
+    "username": "Shred",
+    "name": "Shreyash Dash",
+    "title": "Developer",
+    "text": "Hi! I like to build stuff and explore tech. I'm glad to be a part of this club to make awesome projects.",
+    "avatar": "https://media.licdn.com/dms/image/D4D03AQEunjKDWcHbMQ/profile-displayphoto-shrink_800_800/0/1686926722224?e=2147483647&v=beta&t=0FRt7b4yE0XGIO5c5X-MnN-BNFhiaNl8flI8h9rqg7w",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Shre-D"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/shreyash-dash-5317b427b"
+      }
+    ],
+    "badges": ["Web Dev"],
+    "highlightedBadges": ["2022", "Member"]
+  },
+  {
+    "username": "knoxxus",
+    "name": "Anurag Maiti",
+    "title": "Competitive Programmer",
+    "text": "Just some guy wandering through life. Picked up coding, music, and gaming along the way.",
+    "avatar": "https://avatars.githubusercontent.com/u/26100941?v=4",
+    "socials": [
+      {
+        "name": "linkedin",
+        "link": "www.linkedin.com/in/anurag-maiti-61828727b"
+      },
+      {
+        "name": "email",
+        "link": "mailto:knoxxus@gmail.com"
+      }
+    ],
+    "badges": ["Competitive Programming"],
+    "highlightedBadges": ["2022", "Member"]
+  },
+  {
+    "username": "ideamama",
+    "name": "Advaith N",
+    "title": "Developer",
+    "text": "I am a big fan of Godot. I have been making games with Godot since the icon.png days. Game dev is something that combines art,  music and programming, each of which I enjoy individually and together in the form of Game Dev!",
+    "avatar": "https://avatars.githubusercontent.com/u/75466610?v=4",
+    "socials": [
+      {
+        "name": "github",
+        "link": "github.com/i-ideamama"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/advaith-n-9537b6299"
+      },
+      {
+        "name": "email",
+        "link": "mailto:advaith.n@gmail.com"
+      }
+    ],
+    "badges": ["Game Dev"],
+    "highlightedBadges": ["2023", "Member"]
+  },
+  {
+    "username": "zeeshanok",
+    "name": "Zeeshan Valappil",
+    "title": "Developer",
+    "text": "",
+    "avatar": "https://storage.googleapis.com/bucket-of-zeeshanok/pfp.png",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/zeeshanok"
+      },
+      {
+        "name": "email",
+        "link": "mailto:zeeshanv@outlook.com"
+      }
+    ],
+    "badges": ["App Dev"],
+    "highlightedBadges": ["2023", "Member"]
+  },
+  {
+    "username": "vooora",
+    "name": "Pranathi Voora",
+    "title": "Designer",
+    "text": "",
+    "avatar": "https://drive.google.com/file/d/1JLuXOj8Ygm15XQlIxVPc17JuG2n0QRqE/view?usp=sharing",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/vooora"
+      },
+      {
+        "name": "linkedin",
+        "link": "www.linkedin.com/in/pranathi-voora"
+      },
+      {
+        "name": "email",
+        "link": "mailto:pranathivoora2@gmail.com"
+      }
+    ],
+    "badges": ["Design"],
+    "highlightedBadges": ["2022", "Member"]
+  },
+  {
+    "username": "Opex",
+    "name": "Bipul Behera",
+    "title": "Developer",
+    "text": "",
+    "avatar": "https://imgur.com/a/ZyWDOpP",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/OpexRah"
+      }
+    ],
+    "badges": ["Machine Learning"],
+    "highlightedBadges": ["2023", "Member"]
+  },
+  {
+    "username": "m1ghty",
+    "name": "Maitreya Manohar",
+    "title": "",
+    "text": "Hi, I am Maitreya Manohar and I'm part of the Flutter domain in Crux. I started learning Flutter in 2021 and have always been interested in solving real world problems through software development. Other than development, I also love playing video games and the keyboard during my free time!",
+    "avatar": "https://scontent.fblr1-9.fna.fbcdn.net/v/t39.30808-6/284078639_1611675209217167_7251408617124913467_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Qxays0EvvpwQ7kNvgGRwzLU&_nc_ht=scontent.fblr1-9.fna&cb_e2o_trans=q&oh=00_AYDz-AW6_lHfmzHnnzlwMiwQX9eTCggAxmBCMMzukp8JSQ&oe=666C9E46",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/MaitreyaManohar"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/maitreya-manohar-b83a85179/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:maitreya2003@gmail.com"
+      }
+    ],
+    "badges": ["App Dev"],
+    "highlightedBadges": ["2021", "Member"]
+  },
+  {
+    "username": "friendlyspider",
+    "name": "Sanjay Ashok Kumar",
+    "title": "",
+    "text": "",
+    "avatar": "https://w0.peakpx.com/wallpaper/778/9/HD-wallpaper-404-error-404-error-glitch-glitch.jpg",
+    "socials": [
+      {
+        "name": "email",
+        "link": "mailto:f20230133@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "badges": ["CTF"],
+    "highlightedBadges": ["2023", "Enthusiast"]
+  },
+  {
+    "username": "Nexus",
+    "name": "Pranav Dimri",
+    "title": "CTF",
+    "text": "I participate in events called CTFs (Capture The Flags) for cruX. CTFs are competitions where the objective is to solve puzzles based on knowledge of domains such as web, cryptography, binaries and more to get points.",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/c/c2/Power_%28Chainsaw_Man%29.png",
+    "website": "http://www.patience-is-a-virtue.org/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/nexpranav"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/pranav-dimri-233a781a5/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/KernelPan1c"
+      },
+      {
+        "name": "email",
+        "link": "mailto:dimripranav03@gmail.com"
+      }
+    ],
+    "badges": ["CTF"],
+    "highlightedBadges": ["2022", "Member"]
+  },
+  {
+    "username": "manjot1151",
+    "name": "Manjot Singh Narula",
     "title": "Competitive Programmer",
     "text": "",
+    "avatar": "https://avatars.githubusercontent.com/u/60287831?v=4",
     "socials": [
-      { "name": "github", "link": "https://github.com/Dosto3vsky" },
+      {
+        "name": "github",
+        "link": "https://github.com/Manjot1151/"
+      },
       {
         "name": "linkedin",
-        "link": "https://in.linkedin.com/in/varun-vaddiraju-525a09248"
+        "link": "https://www.linkedin.com/in/manjot-singh-n-8b793018b/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/Manjot1151"
       },
       {
         "name": "email",
-        "link": "mailto:f20200173@hyderabad.bits-pilani.ac.in"
+        "link": "mailto:f20230122@hyderabad.bits-pilani.ac.in"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/91046705?v=4",
-    "highlightedBadges": ["2020", "Senate '22-23"],
-    "badges": ["Competitive Programming"]
+    "badges": ["Competitive Programming"],
+    "highlightedBadges": ["2023", "Enthusiast"]
   },
   {
-    "username": "aayushi 2",
-    "name": "Aayushi Sah 2",
+    "username": "pranav333",
+    "name": "Pranav Sharma",
+    "title": "",
+    "text": "https://ctftime.org/user/155367",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/6/62/Polygondwanaland.jpg",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/333pranav/"
+      }
+    ],
+    "badges": ["CTF"],
+    "highlightedBadges": ["2021", "Member"]
+  },
+  {
+    "username": "altair16.7",
+    "name": "Sriram N",
+    "title": "CTF",
+    "text": "",
+    "avatar": "https://files.catbox.moe/t0m9an.png",
+    "socials": [],
+    "badges": ["CTF"],
+    "highlightedBadges": ["2023", "Member"]
+  },
+  {
+    "username": "cat.lover",
+    "name": "Jinesh Modi",
+    "title": "",
+    "text": "Lover of Cats, problem solving excites me and i love building side projects with my friends.",
+    "avatar": "https://pixabay.com/photos/european-shorthair-cat-animal-8601492/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/iamjineshmodi"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/modijinesh"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/cat.lover"
+      },
+      {
+        "name": "email",
+        "link": "mailto:jmodi005@gmail.com"
+      }
+    ],
+    "badges": ["Competitive Programming"],
+    "highlightedBadges": ["2022", "Enthusiast"]
+  },
+  {
+    "username": "advsinha17",
+    "name": "Advik Sinha",
     "title": "Developer",
-    "text": "Certum Quod Factum",
+    "text": "",
+    "avatar": "https://drive.google.com/drive/folders/1YT36ldNv4ROVwWOBrPeBsTMDJiuQVO2b?usp=sharing",
     "socials": [
-      { "name": "github", "link": "https://github.com/aayushisah" },
+      {
+        "name": "github",
+        "link": "https://github.com/advsinha17"
+      },
       {
         "name": "linkedin",
-        "link": "https://in.linkedin.com/in/aayushi-sah"
+        "link": "https://in.linkedin.com/in/advik-sinha-b92784257"
       },
       {
         "name": "email",
-        "link": "mailto:f20202238@hyderabad.bits-pilani.ac.in"
+        "link": "mailto:advsinha112@gmail.com"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/88141650?v=4",
-    "highlightedBadges": ["2020", "Senate '22-23"],
-    "badges": ["Game Dev"]
+    "badges": ["Machine Learning"],
+    "highlightedBadges": ["2022", "Member"]
   },
   {
-    "username": "majimearun 2",
-    "name": "Arunachala A.M. 2",
-    "title": "President",
-    "text": "CS undergrad @ BITS Pilani, Hyderabad Campus || Software Developer",
+    "username": "d1v0k",
+    "name": "Kovid Lakhera",
+    "title": "Developer",
+    "text": "WIP",
+    "avatar": "https://files.catbox.moe/i77yf6.png",
+    "website": "WIP",
     "socials": [
-      { "name": "github", "link": "https://github.com/majimearun" },
       {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/arunachala-am/"
+        "name": "github",
+        "link": "https://github.com/divok11231"
       },
       {
         "name": "email",
-        "link": "mailto:arunachala0619@gmail.com"
+        "link": "mailto:lkovid@gmail.com"
       }
     ],
-    "avatar": "https://avatars.githubusercontent.com/u/60971499?v=4",
-    "website": "https://www.majimearun.com/",
-    "highlightedBadges": ["2021", "Senate '23-24"],
-    "badges": ["Machine Learning", "Automation and Scripting", "Web Dev"]
+    "badges": ["Web Dev", "CTF"],
+    "highlightedBadges": ["2021", "Member"]
+  },
+  {
+    "username": "adityapentyala",
+    "name": "Aditya Pentyala",
+    "title": "",
+    "text": "",
+    "avatar": "https://drive.google.com/file/d/1ZtFgsJUo89Fhr97L3edbtKm9tcnWDFns/view?usp=drive_link",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/adityapentyala"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/aditya-pentyala-921b19220/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:adityapentyala02@gmail.com"
+      }
+    ],
+    "badges": ["Machine Learning"],
+    "highlightedBadges": ["2022", "Member"]
+  },
+  {
+    "username": "RedMiner2005",
+    "name": "Pratyush Nair",
+    "title": "Developer",
+    "text": "Why am I a developer: 1. I know how to speak Dart, C++, Python, 2. I stare at a screen for an uncomfortable amount of time. 3. I don't know why my code works. Why aren't I a developer: No caffeine :)",
+    "avatar": "https://www.thepratyush.dev/assets/avatar.png",
+    "website": "https://www.thepratyush.dev",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/RedMiner2005"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/pratyush-nair-783566278/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:pratyushsunil@gmail.com"
+      }
+    ],
+    "badges": ["App Dev"],
+    "highlightedBadges": ["2023", "Enthusiast"]
+  },
+  {
+    "username": "IntelloManiac",
+    "name": "Namit Bhutani",
+    "title": "Developer",
+    "text": "",
+    "avatar": "https://avatars.githubusercontent.com/u/26519624?v=4",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/NamitBhutani"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/namitbhutani/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:namit.bhut@gmail.com"
+      }
+    ],
+    "badges": ["Web Dev"],
+    "highlightedBadges": ["2022", "Member"]
+  },
+  {
+    "username": "atrey-a",
+    "name": "Saurabh Atreya",
+    "title": "Developer",
+    "text": "",
+    "avatar": "https://i.imgur.com/eODvzGe.jpeg",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/atrey-a"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/atreyasaurabh/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20210190@hyderabad.bits-pilani.ac.in"
+      }
+    ],
+    "badges": [
+      "Web Dev",
+      "Machine Learning",
+      "Game Dev",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": ["2021", "Member"]
+  },
+  {
+    "username": "sighwalker",
+    "name": "Tanay Garde",
+    "title": "Designer",
+    "text": "",
+    "avatar": "https://avatars.githubusercontent.com/u/112978609?v=4",
+    "website": "https://sighwalker.github.io/personal/",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/sighwalker"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/tanay-garde/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/sighwalker"
+      },
+      {
+        "name": "email",
+        "link": "mailto:tanaygarde@gmail.com"
+      }
+    ],
+    "badges": ["Design"],
+    "highlightedBadges": ["2022", "Member"]
   }
 ]
