@@ -30,11 +30,18 @@ import Logo from "../../../public/logoMainPage.svg?raw";
     <div class="flex w-full flex-col items-center lg:pt-12 xl:pt-16">
       <MemberCardTabs client:load>
         {
+          // first, senate -> member -> enthu (which happens to be reverse alphabetical order)
+          // then, descending order of batch
+          // then, ascending order of name (for consistency)
           members
             .sort(
               (a, b) =>
+                (b.highlightedBadges[1] ?? "").localeCompare(
+                  a.highlightedBadges[1] ?? "",
+                ) ||
                 parseInt(b.highlightedBadges[0] ?? "0") -
-                parseInt(a.highlightedBadges[0] ?? "0"),
+                  parseInt(a.highlightedBadges[0] ?? "0") ||
+                a.name.localeCompare(b.name),
             )
             .map((member) => (
               <MemberCard
