@@ -27,17 +27,6 @@
       easing: cubicOut,
     }}
   >
-    {#if path === "/achievements"}
-      <span class="text-purple">Achievements</span>
-    {:else}
-      <a
-        class="text-foreground-muted transition-all duration-200 hover:text-purple hover:underline"
-        href="/achievements"
-      >
-        Achievements
-      </a>
-    {/if}
-
     {#if path === "/projects"}
       <span class="text-light-blue">Projects</span>
     {:else}
