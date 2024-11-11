@@ -4,7 +4,6 @@ author: Karthik Prakash
 description: Our inductions for development and UI / UX are now open!
 pubDate: 2024-08-26
 image: { url: "/blogs/dev-inductions-2024-sem-1.png", alt: "dev inductions" }
-category: inductions
 ---
 
 ## We're happy to announce that our inductions for development and UI / UX are now open!

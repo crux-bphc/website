@@ -4,7 +4,6 @@ author: Varun Reddy Padala
 description: Going forward, we'll be changing how inductions to our Competitive Coding division work.
 pubDate: 2024-08-24
 image: { url: "/blogs/cc-inductions.jpg", alt: "cc inductions" }
-category: inductions
 ---
 
 ## Going forward, CRUx will be inducting members to the competitive coding team through rolling inductions.
