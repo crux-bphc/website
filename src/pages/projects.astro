@@ -5,8 +5,17 @@ import Carousel from "../components/Carousel.svelte";
 import Layout from "../layouts/Layout.astro";
 import Footer from "../components/Footer.astro";
 import Logo from "../../public/logoMainPage.svg?raw";
+
+const constructCarouselData = (usernames: string[]) =>
+  usernames.map((username) => {
+    return {
+      href: `https://github.com/${username}`,
+      imageURL: `https://github.com/${username}.png?size=48`,
+    };
+  });
 ---
 
+<!-- TODO: make this all decently responsive -->
 <Layout title="Projects">
   <div class="fixed left-0 top-0 size-full bg-background"></div>
   <div class="fixed -right-24 -top-16 z-0 flex opacity-20 blur">
@@ -27,7 +36,7 @@ import Logo from "../../public/logoMainPage.svg?raw";
     <Navbar />
     <div class="flex w-full flex-col items-center">
       <div
-        class="landscape:thin:h-[50dvw] flex h-[calc(55dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)]"
+        class="flex h-[calc(55dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
       >
         <div
           class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
@@ -35,16 +44,18 @@ import Logo from "../../public/logoMainPage.svg?raw";
           <div class="flex flex-col">
             <div class="flex items-center">
               <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
-                >sorter</span
+                >ChronoFactorem</span
               >
-              <span
+              <a
                 class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
-                >link</span
+                href="https://www.chrono.crux-bphc.com/"
+                target="_blank">link</a
               >
             </div>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
-              >Face ID and clustering to retrieve your snaps from campus events</span
+              >Your friendly neighbourhood web app that helps you create, search
+              and manage draft timetables.</span
             >
           </div>
           <div
@@ -52,48 +63,21 @@ import Logo from "../../public/logoMainPage.svg?raw";
           >
             <Carousel
               client:visible
-              images={[
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/36817910?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/77240155?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/33770878?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/116057817?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/65390427?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/104909040?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/60971499?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/112821423?v=4&size=48",
-                },
-              ]}
+              images={constructCarouselData([
+                "soumitradev",
+                "skoriop",
+                "majimearun",
+                "JustAGhost23",
+                "Anurav-Garg",
+                "pnicto",
+                "Samirkhairati",
+                "NamitBhutani",
+                "Chaitanya-Keyal",
+                "kishan1735",
+                "Shre-D",
+                "divok11231",
+                "palaniappan-r",
+              ])}
               size={8}
               smallSize={10}
               mediumSize={12}
@@ -104,18 +88,14 @@ import Logo from "../../public/logoMainPage.svg?raw";
         </div>
         <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
           <img
-            src="/mockup1.png"
-            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-[25rem]"
-          />
-          <img
-            src="/mockup2.png"
-            class="-ml-4 h-44 w-32 sm:h-44 sm:w-32 md:-ml-8 md:h-80 md:w-56 lg:-ml-12 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
+            src="/chrono.png"
+            class="mt-14 h-3/4 w-64 sm:w-64 md:w-[28rem] lg:w-[40rem] xl:w-[50rem]"
           />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
       <div
-        class="landscape:thin:h-[50dvw] flex h-[calc(55dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)]"
+        class="flex h-[calc(55dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
       >
         <div
           class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
@@ -123,16 +103,18 @@ import Logo from "../../public/logoMainPage.svg?raw";
           <div class="flex flex-col">
             <div class="flex items-center">
               <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
-                >sorter</span
+                >Rideshare</span
               >
-              <span
+              <a
                 class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
-                >link</span
+                href="https://play.google.com/store/apps/details?id=com.crux_bphc.rideshare"
+                target="_blank">link</a
               >
             </div>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
-              >Face ID and clustering to retrieve your snaps from campus events</span
+              >A cab-sharing app that helps you find rides from and to common
+              destinations around BPHC.</span
             >
           </div>
           <div
@@ -140,48 +122,13 @@ import Logo from "../../public/logoMainPage.svg?raw";
           >
             <Carousel
               client:visible
-              images={[
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/36817910?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/77240155?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/33770878?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/116057817?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/65390427?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/104909040?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/60971499?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/112821423?v=4&size=48",
-                },
-              ]}
+              images={constructCarouselData([
+                "palaniappan-r",
+                "atrey-a",
+                "Shre-D",
+                "MaitreyaManohar",
+                "shoebum-goyell",
+              ])}
               size={8}
               smallSize={10}
               mediumSize={12}
@@ -192,18 +139,18 @@ import Logo from "../../public/logoMainPage.svg?raw";
         </div>
         <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
           <img
-            src="/mockup1.png"
-            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-[25rem]"
+            src="/rideshare1.png"
+            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-80"
           />
           <img
-            src="/mockup2.png"
-            class="-ml-4 h-44 w-32 sm:h-44 sm:w-32 md:-ml-8 md:h-80 md:w-56 lg:-ml-12 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
+            src="/rideshare2.png"
+            class="h-44 w-32 pl-4 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
           />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
       <div
-        class="landscape:thin:h-[50dvw] flex h-[calc(55dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)]"
+        class="flex h-[calc(55dvh)] w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
       >
         <div
           class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
@@ -211,16 +158,18 @@ import Logo from "../../public/logoMainPage.svg?raw";
           <div class="flex flex-col">
             <div class="flex items-center">
               <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
-                >sorter</span
+                >BitsGPT</span
               >
-              <span
+              <a
                 class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
-                >link</span
+                href="https://github.com/crux-bphc/bits-gpt"
+                target="_blank">link</a
               >
             </div>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
-              >Face ID and clustering to retrieve your snaps from campus events</span
+              ><i>(beta)</i> Your campus buddy chatbot for advice, resources and
+              making student life easier.</span
             >
           </div>
           <div
@@ -228,48 +177,11 @@ import Logo from "../../public/logoMainPage.svg?raw";
           >
             <Carousel
               client:visible
-              images={[
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/36817910?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/77240155?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/33770878?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/116057817?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/65390427?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/104909040?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/60971499?v=4&size=48",
-                },
-                {
-                  href: "https://github.com/soumitradev",
-                  imageURL:
-                    "https://avatars.githubusercontent.com/u/112821423?v=4&size=48",
-                },
-              ]}
+              images={constructCarouselData([
+                "CWSwastik",
+                "OpexRah",
+                "Chaitanya-Keyal",
+              ])}
               size={8}
               smallSize={10}
               mediumSize={12}
@@ -280,12 +192,8 @@ import Logo from "../../public/logoMainPage.svg?raw";
         </div>
         <div class="flex justify-center pr-4 sm:pr-6 sm:pt-24 md:pr-10">
           <img
-            src="/mockup1.png"
-            class="h-44 w-32 sm:h-44 sm:w-32 md:h-80 md:w-56 lg:h-[28rem] lg:w-80 xl:h-[36rem] xl:w-[25rem]"
-          />
-          <img
-            src="/mockup2.png"
-            class="-ml-4 h-44 w-32 sm:h-44 sm:w-32 md:-ml-8 md:h-80 md:w-56 lg:-ml-12 lg:h-[28rem] lg:w-64 xl:h-[36rem] xl:w-80"
+            src="/bitsgpt.png"
+            class="mt-14 h-3/4 w-64 sm:w-64 md:w-[28rem] lg:w-[40rem] xl:w-[50rem]"
           />
         </div>
       </div>

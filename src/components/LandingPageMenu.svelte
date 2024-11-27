@@ -24,12 +24,6 @@
     }}
   >
     <a
-      class="text-foreground-muted transition-all duration-200 hover:text-purple hover:underline"
-      href="/achievements"
-    >
-      Achievements
-    </a>
-    <a
       class="text-foreground-muted transition-all duration-200 hover:text-light-blue hover:underline"
       href="/projects"
     >
