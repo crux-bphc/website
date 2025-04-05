@@ -43,7 +43,7 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
                 >ChronoFactorem</span
               >
               <a
@@ -102,7 +102,7 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
                 >Rideshare</span
               >
               <a
@@ -157,7 +157,7 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl"
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
                 >BitsGPT</span
               >
               <a
@@ -198,7 +198,209 @@ const constructCarouselData = (usernames: string[]) =>
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
-
+      <div
+        class="flex h-fit w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
+      >
+        <div
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+                >Lex</span
+              >
+              <a
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                href="https://lex.crux-bphc.com"
+                target="_blank">link</a
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+            >
+            Currently has Multipartus, giving you a nicer Impartus experience even for courses you are not registered to</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              images={constructCarouselData([
+                "thecomputerm",
+                "zeeshanok",
+                "Vansh-Bh",
+              ])}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/lex.png"
+            class="sm:mt-14 h-fit aspect-auto"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+      <div
+        class="flex h-fit w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
+      >
+        <div
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+                >Snap Sorter</span
+              >
+              <a
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                href="https://staging.snap-sorter.crux-bphc.com"
+                target="_blank">link</a
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+            >
+            <i>(beta) </i>Finds all photos from campus events that you're in using face ID and clustering</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              images={constructCarouselData([
+                "OpexRah",
+                "CwSwastik",
+                "Shiv-Patil",
+                "HarshitBansal9",
+                "Samirkhairati"
+              ])}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/snapsorter.png"
+            class="sm:mt-14 h-fit aspect-auto"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+      <div
+        class="flex h-fit w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
+      >
+        <div
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+                >Arena App</span
+              >
+              <a
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                href="https://arena-app.crux-bphc.com"
+                target="_blank">link</a
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+            >
+            A PWA (Progressive Web App) that lets you keep track of event schedules and results, while making predictions on upcoming events to win or lose points.</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              images={constructCarouselData([
+                "skoriop",
+                "Radian6405",
+                "soemone",
+                "CosmoProgrammer",
+              ])}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center sm:justify-end gap-5 sm:gap-10 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/arenaapp1.jpg"
+            class="w-1/3 sm:w-1/4 sm:max-w-1/3 h-fit aspect-auto"
+          />
+          <img
+            src="/arenaapp2.jpg"
+            class="w-1/3 sm:w-1/4 sm:max-w-1/3 h-fit aspect-auto"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+      <div
+        class="flex h-fit w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
+      >
+        <div
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span class="text-2xl font-bold md:text-3xl xl:text-5xl"
+                >Multipartus Downloader</span
+              >
+              <a
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                href="https://github.com/crux-bphc/multipartus-downloader"
+                target="_blank">link</a
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+            >
+            <i>(beta) </i>A desktop app that lets you download Impartus lectures for offline viewing, even for courses you are not registered to</span
+            >
+          </div>
+          <div
+            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              images={constructCarouselData([
+                "soemone",
+                "thecomputerm",
+                "poisonpwn",
+              ])}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+          <img
+            src="/lex.png"
+            class="sm:mt-14 h-fit aspect-auto"
+          />
+        </div>
+      </div>
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
       <Footer />
     </div>
   </main>
