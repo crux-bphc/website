@@ -21,7 +21,7 @@ const { imageURL, href, name, title, highlightedBadges, badges } = Astro.props;
     href={href}
     class="flex flex-row-reverse items-center justify-between p-6 lg:flex-col"
   >
-    <Avatar imageURL=`${imageURL}` style="size-16 sm:size-36 md:size-48" />
+    <Avatar imageURL={href} style="size-16 sm:size-36 md:size-48" />
     <div
       class="flex flex-col lg:min-h-64 lg:items-center lg:justify-between lg:pt-4 xl:min-h-72 xxl:min-h-48"
     >
