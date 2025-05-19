@@ -807,36 +807,35 @@
     ]
   },
   {
-    "avatar": "https://avatars.githubusercontent.com/u/112978609?v=4",
+    "username": "sighwalker",
+    "name": "Tanay Garde",
+    "title": "Designer",
     "badges": [
       "Design"
     ],
     "highlightedBadges": [
-      "2022",
+      2022,
       "Member"
     ],
-    "name": "Tanay Garde",
+    "text": "",
     "socials": [
       {
-        "link": "https://github.com/sighwalker",
-        "name": "github"
+        "name": "github",
+        "link": "https://github.com/sighwalker"
       },
       {
-        "link": "https://www.linkedin.com/in/tanay-garde/",
-        "name": "linkedin"
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/tanay-garde/"
       },
       {
-        "link": "https://codeforces.com/profile/sighwalker",
-        "name": "codeforces"
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/sighwalker"
       },
       {
-        "link": "mailto:tanaygarde@gmail.com",
-        "name": "email"
+        "name": "email",
+        "link": "tanaygarde@gmail.com"
       }
     ],
-    "text": "yo mr white",
-    "title": "Designer",
-    "username": "sighwalker",
-    "website": "https://sighwalker.github.io/personal/"
+    "website": ""
   }
 ]
