@@ -4,9 +4,16 @@ import MemberCard from "../../components/MemberCard.astro";
 import MemberCardTabs from "../../components/MemberCardTabs.svelte";
 import Navbar from "../../components/Navbar.astro";
 import Layout from "../../layouts/Layout.astro";
-import members from "../../data/members.json";
-import alumni from "../../data/alumni.json";
+import data from "../../data/data.json";
 import Logo from "../../../public/logoMainPage.svg?raw";
+
+const ALUMNIYEAR = 2021;
+const members = data.filter(
+  (e) => parseInt(e.highlightedBadges[0] ?? "0") > ALUMNIYEAR,
+);
+const alumni = data.filter(
+  (e) => parseInt(e.highlightedBadges[0] ?? "0") <= ALUMNIYEAR,
+);
 ---
 
 <Layout title="Members">
@@ -59,8 +66,12 @@ import Logo from "../../../public/logoMainPage.svg?raw";
           alumni
             .sort(
               (a, b) =>
+                (b.highlightedBadges[1] ?? "").localeCompare(
+                  a.highlightedBadges[1] ?? "",
+                ) ||
                 parseInt(b.highlightedBadges[0] ?? "0") -
-                parseInt(a.highlightedBadges[0] ?? "0"),
+                  parseInt(a.highlightedBadges[0] ?? "0") ||
+                a.name.localeCompare(b.name),
             )
             .map((alumnus) => (
               <MemberCard
