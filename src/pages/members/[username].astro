@@ -9,8 +9,7 @@ import Badge from "../../components/Badge.astro";
 import Footer from "../../components/Footer.astro";
 import Navbar from "../../components/Navbar.astro";
 import Layout from "../../layouts/Layout.astro";
-import members from "../../data/members.json";
-import alumni from "../../data/alumni.json";
+import data from "../../data/data.json";
 import Logo from "../../../public/logoMainPage.svg?raw";
 
 export async function getStaticPaths() {
@@ -22,9 +21,7 @@ export async function getStaticPaths() {
     email: MailIcon,
   };
 
-  const membersAndAlumni = members.concat(alumni);
-
-  return membersAndAlumni.map(
+  return data.map(
     ({
       username,
       name,

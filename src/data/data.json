@@ -1,5 +1,160 @@
 [
   {
+    "username": "viswa",
+    "name": "Abhijeet Viswa",
+    "title": "Alumnus",
+    "text": "bitsian.\\nHey there. I'm a student of the 2018 batch that did my undergrad in EnI. I started coding in 8th grade and loved it instantly. My interests primarily lie in app dev and have worked in Java, VB6, Python and C#. Recently, I forayed into the world of Android App Development and Python web dev using Django.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/abhijeetviswa" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/abhijeetviswa/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:abhijeetviswa@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/2743113?v=4",
+    "highlightedBadges": ["2018", "Member"],
+    "badges": ["Web Dev", "Automation & Scripting"]
+  },
+  {
+    "username": "varun-parthasarthy",
+    "name": "Varun Parthasarthy",
+    "title": "Alumnus",
+    "text": "Analyst at JP Morgan, working in Applied AI & ML. I have a great deal of interest in computer vision and its applications, as well as image processing and machine learning.",
+    "socials": [
+      { "name": "github", "link": "https://github.com/varun-parthasarathy" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/varun-parthasarathy-72730815b"
+      },
+      {
+        "name": "email",
+        "link": "mailto:varunparthasarathy7@gmail.com"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/16452817?v=4",
+    "highlightedBadges": ["2017", "Member"],
+    "badges": ["Machine Learning"]
+  },
+  {
+    "username": "chopra",
+    "name": "Aditya Chopra",
+    "title": "Alumnus",
+    "text": "",
+    "socials": [
+      { "name": "github", "link": "https://github.com/adeecc" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/aditya-chopra11/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20190178h@alumni.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/28647816?v=4",
+    "highlightedBadges": ["2019", "Member"],
+    "badges": ["Machine Learning", "Automation & Scripting"]
+  },
+  {
+    "username": "asura",
+    "name": "Abhinav Sukumar Rao",
+    "title": "Alumnus",
+    "text": "MIIS @ LTI, CMU",
+    "socials": [
+      { "name": "github", "link": "https://github.com/AetherPrior" },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/abhinav-rao"
+      },
+      {
+        "name": "email",
+        "link": "mailto:abhinavr@andrew.cmu.edu"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/39939017?v=4",
+    "highlightedBadges": ["2018", "Member"],
+    "badges": ["Machine Learning", "Automation & Scripting", "Web Dev"]
+  },
+  {
+    "username": "jj",
+    "name": "Jeevan Jyot Singh",
+    "title": "Alumnus",
+    "text": "ICPC World Finalist | SWE @ Google | Former Intern @ Nutanix | Master on Codeforces | BITS Pilani CS Undergrad",
+    "socials": [
+      { "name": "github", "link": "https://github.com/21jjsk" },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/jeevanjyot"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20190172h@alumni.bits-pilani.ac.in"
+      }
+    ],
+    "avatar": "https://avatars.githubusercontent.com/u/73716261?v=4",
+    "highlightedBadges": ["2019", "Member"],
+    "badges": ["Competitive Programming", "Web Dev"]
+  },
+  {
+    "username": "tush_chen",
+    "name": "Tushar Brijesh Chenan",
+    "title": "The Legend Himself",
+    "text": "SWE @ Google | xIntern @ Apple | ICPC Regionalist | BITS Pilani CSE'24",
+    "avatar": "https://avatars.githubusercontent.com/u/13283801",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/rocka0"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/tushar-chenan"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/14122021"
+      },
+      {
+        "name": "email",
+        "link": "mailto:tusky2002@gmail.com"
+      }
+    ],
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting",
+      "Competitive Programming",
+      "CTF"
+    ],
+    "highlightedBadges": ["2020", "Member"]
+  },
+  {
+    "username": "the_hyp0cr1t3",
+    "name": "Hriday G",
+    "title": "Secretary '21",
+    "text": "Wake me up when we stop using Js.",
+    "avatar": "https://avatars.githubusercontent.com/u/55075129",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/the-hyp0cr1t3"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://in.linkedin.com/in/hriday-gajulapalli"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/the_hyp0cr1t3"
+      }
+    ],
+    "badges": ["Automation & Scripting", "Competitive Programming"],
+    "highlightedBadges": ["2019", "Member"]
+  },
+  {
     "username": "wizard416",
     "name": "Eshaan Sudan",
     "title": "Competitive Programmer",
