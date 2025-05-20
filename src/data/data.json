@@ -392,31 +392,6 @@
     ]
   },
   {
-    "username": "poisonpwn",
-    "name": "Adithyadev R",
-    "title": "Developer",
-    "text": "Like to make stuff and break stuff. I'm into Python, Systems dev (I ❤️ Rust), Linux, and a bunch of other things.",
-    "avatar": "https://avatars.githubusercontent.com/u/45178461?s=400&u=9b01437588190d10d9edba8475d70f6ae52951cb&v=4",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/poisonpwn"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/adithyadev-rajesh-8b3298220"
-      }
-    ],
-    "badges": [
-      "Automation & Scripting",
-      "Functional Programming"
-    ],
-    "highlightedBadges": [
-      "2023",
-      "Member"
-    ]
-  },
-  {
     "username": "Shred",
     "name": "Shreyash Dash",
     "title": "Developer",
@@ -1072,6 +1047,31 @@
       {
         "name": "email",
         "link": "mailto:zeeshanv@outlook.com"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "username": "poisonpwn",
+    "name": "Adithyadev R",
+    "title": "Developer",
+    "badges": [
+      "Automation & Scripting",
+      "Functional Programming"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ],
+    "text": "Like to make stuff and break stuff. I'm into Python, Systems dev (I ❤️ Rust), Linux, and a bunch of other things.",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/poisonpwn"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/adithyadev-r-8b3298220/"
       }
     ],
     "website": ""
