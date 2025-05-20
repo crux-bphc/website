@@ -493,30 +493,6 @@
     ]
   },
   {
-    "username": "zeeshanok",
-    "name": "Zeeshan Valappil",
-    "title": "Developer",
-    "text": "",
-    "avatar": "https://storage.googleapis.com/bucket-of-zeeshanok/pfp.png",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/zeeshanok"
-      },
-      {
-        "name": "email",
-        "link": "mailto:zeeshanv@outlook.com"
-      }
-    ],
-    "badges": [
-      "App Dev"
-    ],
-    "highlightedBadges": [
-      "2023",
-      "Member"
-    ]
-  },
-  {
     "username": "vooora",
     "name": "Pranathi Voora",
     "title": "Designer",
@@ -1072,6 +1048,30 @@
       {
         "name": "codeforces",
         "link": "https://codeforces.com/profile/soumitra.shewale"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "username": "zeeshanok",
+    "name": "Zeeshan Valappil",
+    "title": "Developer",
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Senate"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/zeeshanok"
+      },
+      {
+        "name": "email",
+        "link": "mailto:zeeshanv@outlook.com"
       }
     ],
     "website": ""
