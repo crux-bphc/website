@@ -5,7 +5,10 @@
     "title": "Alumnus",
     "text": "bitsian.\\nHey there. I'm a student of the 2018 batch that did my undergrad in EnI. I started coding in 8th grade and loved it instantly. My interests primarily lie in app dev and have worked in Java, VB6, Python and C#. Recently, I forayed into the world of Android App Development and Python web dev using Django.",
     "socials": [
-      { "name": "github", "link": "https://github.com/abhijeetviswa" },
+      {
+        "name": "github",
+        "link": "https://github.com/abhijeetviswa"
+      },
       {
         "name": "linkedin",
         "link": "https://in.linkedin.com/in/abhijeetviswa/"
@@ -16,8 +19,14 @@
       }
     ],
     "avatar": "https://avatars.githubusercontent.com/u/2743113?v=4",
-    "highlightedBadges": ["2018", "Member"],
-    "badges": ["Web Dev", "Automation & Scripting"]
+    "highlightedBadges": [
+      "2018",
+      "Member"
+    ],
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting"
+    ]
   },
   {
     "username": "varun-parthasarthy",
@@ -25,7 +34,10 @@
     "title": "Alumnus",
     "text": "Analyst at JP Morgan, working in Applied AI & ML. I have a great deal of interest in computer vision and its applications, as well as image processing and machine learning.",
     "socials": [
-      { "name": "github", "link": "https://github.com/varun-parthasarathy" },
+      {
+        "name": "github",
+        "link": "https://github.com/varun-parthasarathy"
+      },
       {
         "name": "linkedin",
         "link": "https://in.linkedin.com/in/varun-parthasarathy-72730815b"
@@ -36,8 +48,13 @@
       }
     ],
     "avatar": "https://avatars.githubusercontent.com/u/16452817?v=4",
-    "highlightedBadges": ["2017", "Member"],
-    "badges": ["Machine Learning"]
+    "highlightedBadges": [
+      "2017",
+      "Member"
+    ],
+    "badges": [
+      "Machine Learning"
+    ]
   },
   {
     "username": "chopra",
@@ -45,7 +62,10 @@
     "title": "Alumnus",
     "text": "",
     "socials": [
-      { "name": "github", "link": "https://github.com/adeecc" },
+      {
+        "name": "github",
+        "link": "https://github.com/adeecc"
+      },
       {
         "name": "linkedin",
         "link": "https://www.linkedin.com/in/aditya-chopra11/"
@@ -56,8 +76,14 @@
       }
     ],
     "avatar": "https://avatars.githubusercontent.com/u/28647816?v=4",
-    "highlightedBadges": ["2019", "Member"],
-    "badges": ["Machine Learning", "Automation & Scripting"]
+    "highlightedBadges": [
+      "2019",
+      "Member"
+    ],
+    "badges": [
+      "Machine Learning",
+      "Automation & Scripting"
+    ]
   },
   {
     "username": "asura",
@@ -65,7 +91,10 @@
     "title": "Alumnus",
     "text": "MIIS @ LTI, CMU",
     "socials": [
-      { "name": "github", "link": "https://github.com/AetherPrior" },
+      {
+        "name": "github",
+        "link": "https://github.com/AetherPrior"
+      },
       {
         "name": "linkedin",
         "link": "https://www.linkedin.com/in/abhinav-rao"
@@ -76,8 +105,15 @@
       }
     ],
     "avatar": "https://avatars.githubusercontent.com/u/39939017?v=4",
-    "highlightedBadges": ["2018", "Member"],
-    "badges": ["Machine Learning", "Automation & Scripting", "Web Dev"]
+    "highlightedBadges": [
+      "2018",
+      "Member"
+    ],
+    "badges": [
+      "Machine Learning",
+      "Automation & Scripting",
+      "Web Dev"
+    ]
   },
   {
     "username": "jj",
@@ -85,7 +121,10 @@
     "title": "Alumnus",
     "text": "ICPC World Finalist | SWE @ Google | Former Intern @ Nutanix | Master on Codeforces | BITS Pilani CS Undergrad",
     "socials": [
-      { "name": "github", "link": "https://github.com/21jjsk" },
+      {
+        "name": "github",
+        "link": "https://github.com/21jjsk"
+      },
       {
         "name": "linkedin",
         "link": "https://in.linkedin.com/in/jeevanjyot"
@@ -96,8 +135,14 @@
       }
     ],
     "avatar": "https://avatars.githubusercontent.com/u/73716261?v=4",
-    "highlightedBadges": ["2019", "Member"],
-    "badges": ["Competitive Programming", "Web Dev"]
+    "highlightedBadges": [
+      "2019",
+      "Member"
+    ],
+    "badges": [
+      "Competitive Programming",
+      "Web Dev"
+    ]
   },
   {
     "username": "tush_chen",
@@ -129,7 +174,10 @@
       "Competitive Programming",
       "CTF"
     ],
-    "highlightedBadges": ["2020", "Member"]
+    "highlightedBadges": [
+      "2020",
+      "Member"
+    ]
   },
   {
     "username": "the_hyp0cr1t3",
@@ -151,8 +199,14 @@
         "link": "https://codeforces.com/profile/the_hyp0cr1t3"
       }
     ],
-    "badges": ["Automation & Scripting", "Competitive Programming"],
-    "highlightedBadges": ["2019", "Member"]
+    "badges": [
+      "Automation & Scripting",
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2019",
+      "Member"
+    ]
   },
   {
     "username": "wizard416",
@@ -178,35 +232,13 @@
         "link": "mailto:sudaneshaan@gmail.com"
       }
     ],
-    "badges": ["Competitive Programming"],
-    "highlightedBadges": ["2022", "Member"]
-  },
-  {
-    "username": "skoriop",
-    "name": "Karthik Prakash",
-    "title": "Secretary",
-    "text": "todo: insert something unfunny here",
-    "avatar": "https://avatars.githubusercontent.com/u/116057817?s=400&u=23a82d6a0f5cd490fd612143d0f4e0dda8ede043&v=4",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/skoriop"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/karthik-prakash-a6a401261/"
-      },
-      {
-        "name": "codeforces",
-        "link": "https://codeforces.com/profile/skoriop"
-      },
-      {
-        "name": "email",
-        "link": "mailto:karthikp.ivy@gmail.com"
-      }
+    "badges": [
+      "Competitive Programming"
     ],
-    "badges": ["Web Dev", "CTF", "Competitive Programming"],
-    "highlightedBadges": ["2022", "Senate"]
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "humblebuzz",
@@ -233,8 +265,13 @@
         "link": "mailto:varun.reddy.2673@gmail.com"
       }
     ],
-    "badges": ["Competitive Programming"],
-    "highlightedBadges": ["2022", "Senate"]
+    "badges": [
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Senate"
+    ]
   },
   {
     "username": "Saphereye",
@@ -257,8 +294,13 @@
         "link": "mailto:adarshdas950@gmail.com"
       }
     ],
-    "badges": ["Game Dev"],
-    "highlightedBadges": ["2021", "Member"]
+    "badges": [
+      "Game Dev"
+    ],
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ]
   },
   {
     "username": "CWSwastik",
@@ -285,8 +327,14 @@
         "link": "mailto:cwswastik2005@gmail.com"
       }
     ],
-    "badges": ["Web Dev", "Automation & Scripting"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "majimearun",
@@ -305,8 +353,15 @@
         "link": "https://www.linkedin.com/in/arunachala-am/"
       }
     ],
-    "badges": ["Web Dev", "Machine Learning", "Automation & Scripting"],
-    "highlightedBadges": ["2021", "Member"]
+    "badges": [
+      "Web Dev",
+      "Machine Learning",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ]
   },
   {
     "username": "okaybro",
@@ -332,8 +387,14 @@
         "link": "mailto:chaitanyakeyal@gmail.com"
       }
     ],
-    "badges": ["Machine Learning", "Automation & Scripting"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "Machine Learning",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "RedGreninja",
@@ -355,8 +416,13 @@
         "link": "mailto:f20220037@hyderabad.bits-pilani.ac.in"
       }
     ],
-    "badges": ["Web Dev"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "poisonpwn",
@@ -374,8 +440,14 @@
         "link": "https://www.linkedin.com/in/adithyadev-rajesh-8b3298220"
       }
     ],
-    "badges": ["Automation & Scripting", "Functional Programming"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "Automation & Scripting",
+      "Functional Programming"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "TheComputerM",
@@ -402,8 +474,14 @@
         "link": "mailto:f20220149@hyderabad.bits-pilani.ac.in"
       }
     ],
-    "badges": ["Web Dev", "App Dev"],
-    "highlightedBadges": ["2022", "Senate"]
+    "badges": [
+      "Web Dev",
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Senate"
+    ]
   },
   {
     "username": "Shred",
@@ -421,8 +499,13 @@
         "link": "https://www.linkedin.com/in/shreyash-dash-5317b427b"
       }
     ],
-    "badges": ["Web Dev"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "knoxxus",
@@ -440,8 +523,13 @@
         "link": "mailto:knoxxus@gmail.com"
       }
     ],
-    "badges": ["Competitive Programming"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "ideamama",
@@ -463,8 +551,13 @@
         "link": "mailto:advaith.n@gmail.com"
       }
     ],
-    "badges": ["Game Dev"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "Game Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "zeeshanok",
@@ -482,8 +575,13 @@
         "link": "mailto:zeeshanv@outlook.com"
       }
     ],
-    "badges": ["App Dev"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "vooora",
@@ -505,8 +603,13 @@
         "link": "mailto:pranathivoora2@gmail.com"
       }
     ],
-    "badges": ["Design"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Design"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "Opex",
@@ -520,8 +623,13 @@
         "link": "https://github.com/OpexRah"
       }
     ],
-    "badges": ["Machine Learning"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "Machine Learning"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "m1ghty",
@@ -543,8 +651,13 @@
         "link": "mailto:maitreya2003@gmail.com"
       }
     ],
-    "badges": ["App Dev"],
-    "highlightedBadges": ["2021", "Member"]
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ]
   },
   {
     "username": "friendlyspider",
@@ -558,8 +671,13 @@
         "link": "mailto:f20230133@hyderabad.bits-pilani.ac.in"
       }
     ],
-    "badges": ["CTF"],
-    "highlightedBadges": ["2023", "Enthusiast"]
+    "badges": [
+      "CTF"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Enthusiast"
+    ]
   },
   {
     "username": "Nexus",
@@ -586,8 +704,13 @@
         "link": "mailto:dimripranav03@gmail.com"
       }
     ],
-    "badges": ["CTF"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "CTF"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "manjot1151",
@@ -613,8 +736,13 @@
         "link": "mailto:f20230122@hyderabad.bits-pilani.ac.in"
       }
     ],
-    "badges": ["Competitive Programming"],
-    "highlightedBadges": ["2023", "Enthusiast"]
+    "badges": [
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Enthusiast"
+    ]
   },
   {
     "username": "pranav333",
@@ -628,8 +756,13 @@
         "link": "https://github.com/333pranav/"
       }
     ],
-    "badges": ["CTF"],
-    "highlightedBadges": ["2021", "Member"]
+    "badges": [
+      "CTF"
+    ],
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ]
   },
   {
     "username": "altair16.7",
@@ -638,8 +771,13 @@
     "text": "",
     "avatar": "https://files.catbox.moe/t0m9an.png",
     "socials": [],
-    "badges": ["CTF"],
-    "highlightedBadges": ["2023", "Member"]
+    "badges": [
+      "CTF"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ]
   },
   {
     "username": "cat.lover",
@@ -665,8 +803,13 @@
         "link": "mailto:jmodi005@gmail.com"
       }
     ],
-    "badges": ["Competitive Programming"],
-    "highlightedBadges": ["2022", "Enthusiast"]
+    "badges": [
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Enthusiast"
+    ]
   },
   {
     "username": "advsinha17",
@@ -688,8 +831,13 @@
         "link": "mailto:advsinha112@gmail.com"
       }
     ],
-    "badges": ["Machine Learning"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Machine Learning"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "d1v0k",
@@ -708,8 +856,14 @@
         "link": "mailto:lkovid@gmail.com"
       }
     ],
-    "badges": ["Web Dev", "CTF"],
-    "highlightedBadges": ["2021", "Member"]
+    "badges": [
+      "Web Dev",
+      "CTF"
+    ],
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ]
   },
   {
     "username": "adityapentyala",
@@ -731,8 +885,13 @@
         "link": "mailto:adityapentyala02@gmail.com"
       }
     ],
-    "badges": ["Machine Learning"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Machine Learning"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "RedMiner2005",
@@ -755,8 +914,13 @@
         "link": "mailto:pratyushsunil@gmail.com"
       }
     ],
-    "badges": ["App Dev"],
-    "highlightedBadges": ["2023", "Enthusiast"]
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Enthusiast"
+    ]
   },
   {
     "username": "IntelloManiac",
@@ -778,8 +942,13 @@
         "link": "mailto:namit.bhut@gmail.com"
       }
     ],
-    "badges": ["Web Dev"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
   },
   {
     "username": "atrey-a",
@@ -807,7 +976,10 @@
       "Game Dev",
       "Automation & Scripting"
     ],
-    "highlightedBadges": ["2021", "Member"]
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ]
   },
   {
     "username": "sighwalker",
@@ -834,7 +1006,46 @@
         "link": "mailto:tanaygarde@gmail.com"
       }
     ],
-    "badges": ["Design"],
-    "highlightedBadges": ["2022", "Member"]
+    "badges": [
+      "Design"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ]
+  },
+  {
+    "username": "skoriop",
+    "name": "Karthik Prakash",
+    "title": "Secretary",
+    "badges": [
+      "Web Dev",
+      "CTF",
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      2022,
+      "Senate"
+    ],
+    "text": "todo: insert something unfunny here",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/skoriop"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/karthik-prakash-a6a401261/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/skoriop"
+      },
+      {
+        "name": "email",
+        "link": "karthikp.ivy@gmail.com"
+      }
+    ],
+    "website": "j"
   }
 ]
