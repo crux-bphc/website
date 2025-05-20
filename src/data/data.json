@@ -1045,5 +1045,35 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "soumitradev",
+    "name": "Soumitra Shewale",
+    "title": "Developer",
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting",
+      "CTF"
+    ],
+    "highlightedBadges": [
+      "2021",
+      "Member"
+    ],
+    "text": "I like playing with software and doing Open Source stuff.",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/soumitradev/"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/soumitra-shewale/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/soumitra.shewale"
+      }
+    ],
+    "website": ""
   }
 ]
