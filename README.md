@@ -1,6 +1,6 @@
 # CRUx Website
 
-The new repo for the cruX website
+The repo for the new cruX website.
 
 **NOTE:** Before contributing changes, we recommend you read the [Contributing Guide](./CONTRIBUTING.md)
 
