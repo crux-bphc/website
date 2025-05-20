@@ -241,39 +241,6 @@
     ]
   },
   {
-    "username": "humblebuzz",
-    "name": "Varun Reddy Padala",
-    "title": "Secretary",
-    "text": "I'm a competitive programmer who spends more time coming up with creative names for new secret Codeforces accounts than actually solving problems. At CRUx, I occasionally help out with conducting workshops and fun competitions. At home, I can finish a TV series in a day and love playing vidya gaems on my console. Little known fact about me - I have had five Reddit accounts banned from the site.",
-    "avatar": "https://imgur.com/a/aDTJio1",
-    "website": "https://varun-reddy-2673.github.io/",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/Varun-Reddy-2673"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/varun-reddy-padala-a45717263/"
-      },
-      {
-        "name": "codeforces",
-        "link": "https://codeforces.com/profile/Humblebuzz"
-      },
-      {
-        "name": "email",
-        "link": "mailto:varun.reddy.2673@gmail.com"
-      }
-    ],
-    "badges": [
-      "Competitive Programming"
-    ],
-    "highlightedBadges": [
-      "2022",
-      "Senate"
-    ]
-  },
-  {
     "username": "Saphereye",
     "name": "Adarsh Das",
     "title": "Developer",
@@ -1044,6 +1011,38 @@
       {
         "name": "email",
         "link": "mailto:karthikp.ivy@gmail.com"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "username": "humblebuzz",
+    "name": "Varun Reddy Padala",
+    "title": "Secretary",
+    "badges": [
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ],
+    "text": "I'm a competitive programmer who spends more time coming up with creative names for new secret Codeforces accounts than actually solving problems. At CRUx, I occasionally help out with conducting workshops and fun competitions. At home, I can finish a TV series in a day and love playing vidya gaems on my console. Little known fact about me - I have had five Reddit accounts banned from the site.",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Varun-Reddy-2673"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/varun-reddy-padala-a45717263/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/Humblebuzz"
+      },
+      {
+        "name": "email",
+        "link": "mailto:varun.reddy.2673@gmail.com"
       }
     ],
     "website": ""
