@@ -14,7 +14,7 @@ The repo for the new cruX website.
 
 ## Getting it up and running
 
-This project does not use docker for its containerization; instead, it will use Vercel or GitHub pages for its deployment. The DNS settings on the `crux-bphc.com` domain will be adjusted accordingly.
+This project does not use Docker for its containerization; instead, it will use Vercel for its deployment. The DNS settings on the `crux-bphc.com` domain will be adjusted accordingly.
 
 As of now, this site will **NOT** be hosted on any of our servers, and we recommend shifting it to our servers **only** if this site gets a backend in the future for whatever reason.
 
