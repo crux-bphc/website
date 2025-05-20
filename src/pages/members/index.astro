@@ -57,7 +57,7 @@ const alumni = data.filter(
                 title={member.title}
                 highlightedBadges={member.highlightedBadges}
                 badges={member.badges}
-                imageURL={member.avatar}
+                imageURL={`/avatars/members/${member.username}`}
                 slot="members"
               />
             ))
@@ -80,7 +80,7 @@ const alumni = data.filter(
                 title={alumnus.title}
                 highlightedBadges={alumnus.highlightedBadges}
                 badges={alumnus.badges}
-                imageURL={alumnus.avatar}
+                imageURL={`/avatars/members/${alumnus.username}`}
                 slot="alumni"
               />
             ))

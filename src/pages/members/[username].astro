@@ -60,11 +60,11 @@ const {
   title,
   text,
   socials,
-  avatar,
   website,
   highlightedBadges,
   badges,
 } = Astro.props;
+const { username } = Astro.params;
 ---
 
 <Layout title=`${name}`>
@@ -90,7 +90,7 @@ const {
           class="flex w-full flex-col items-center px-4 md:px-4 lg:w-1/2 lg:items-start"
         >
           <Avatar
-            imageURL={avatar}
+            imageURL={`/avatars/members/${username}`}
             style="lg:size-48 size-36 md:mb-6 mb-2 lg:hidden"
           />
           <span
@@ -158,7 +158,7 @@ const {
         </div>
         <div class="hidden w-fit flex-col items-center pl-12 lg:flex xl:pl-16">
           <Avatar
-            imageURL={avatar}
+            imageURL={`/avatars/members/${username}`}
             style="lg:size-48 size-36 hidden lg:block"
           />
           <div class="flex w-fit flex-wrap pt-4 lg:justify-center">
