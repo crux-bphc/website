@@ -417,40 +417,6 @@
     ]
   },
   {
-    "username": "TheComputerM",
-    "name": "Mudit Somani",
-    "title": "President",
-    "text": "01101100 01100001 01101101 01101111 00100000 01101110 01100101 01110010 01100100 00001010",
-    "avatar": "https://avatars.githubusercontent.com/u/24741538",
-    "website": "https://thecomputerm.dev/",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/TheComputerM"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/mudit-somani-488689254/"
-      },
-      {
-        "name": "codeforces",
-        "link": "https://codeforces.com/profile/thecomputerm"
-      },
-      {
-        "name": "email",
-        "link": "mailto:f20220149@hyderabad.bits-pilani.ac.in"
-      }
-    ],
-    "badges": [
-      "Web Dev",
-      "App Dev"
-    ],
-    "highlightedBadges": [
-      "2022",
-      "Senate"
-    ]
-  },
-  {
     "username": "Shred",
     "name": "Shreyash Dash",
     "title": "Developer",
@@ -1043,6 +1009,39 @@
       {
         "name": "email",
         "link": "mailto:varun.reddy.2673@gmail.com"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "username": "TheComputerM",
+    "name": "Mudit Somani",
+    "title": "President",
+    "badges": [
+      "Web Dev",
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Member"
+    ],
+    "text": "01101100 01100001 01101101 01101111 00100000 01101110 01100101 01110010 01100100 00001010",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/TheComputerM"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/mudit-somani-488689254/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/thecomputerm"
+      },
+      {
+        "name": "email",
+        "link": "mailto:f20220149@hyderabad.bits-pilani.ac.in"
       }
     ],
     "website": ""
