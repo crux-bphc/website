@@ -1,6 +1,5 @@
 ---
-layout: ../../layouts/Layout.astro
-title: Privacy Policy
+title: CMS Privacy Policy
 ---
 
 Effective Date: [23rd May 2023]
