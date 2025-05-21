@@ -270,40 +270,6 @@
     ]
   },
   {
-    "username": "CWSwastik",
-    "name": "Swastik Goswami",
-    "title": "Developer",
-    "text": "",
-    "avatar": "https://i.imgur.com/BqiAnVc.png",
-    "website": "https://codewithswastik.github.io/",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/CWSwastik"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/cwswastik/"
-      },
-      {
-        "name": "codeforces",
-        "link": "https://codeforces.com/profile/cwswastik"
-      },
-      {
-        "name": "email",
-        "link": "mailto:cwswastik2005@gmail.com"
-      }
-    ],
-    "badges": [
-      "Web Dev",
-      "Automation & Scripting"
-    ],
-    "highlightedBadges": [
-      "2023",
-      "Member"
-    ]
-  },
-  {
     "username": "majimearun",
     "name": "Arunachala Amuda Murugan",
     "title": "Developer",
@@ -1072,6 +1038,39 @@
       {
         "name": "linkedin",
         "link": "https://www.linkedin.com/in/adithyadev-r-8b3298220/"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "username": "CWSwastik",
+    "name": "Swastik Goswami",
+    "title": "President",
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Senate"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/CWSwastik"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/cwswastik/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/cwswastik"
+      },
+      {
+        "name": "email",
+        "link": "mailto:cwswastik2005@gmail.com"
       }
     ],
     "website": ""
