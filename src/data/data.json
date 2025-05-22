@@ -716,63 +716,6 @@
     ]
   },
   {
-    "username": "adityapentyala",
-    "name": "Aditya Pentyala",
-    "title": "",
-    "text": "",
-    "avatar": "https://drive.google.com/file/d/1ZtFgsJUo89Fhr97L3edbtKm9tcnWDFns/view?usp=drive_link",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/adityapentyala"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/aditya-pentyala-921b19220/"
-      },
-      {
-        "name": "email",
-        "link": "mailto:adityapentyala02@gmail.com"
-      }
-    ],
-    "badges": [
-      "Machine Learning"
-    ],
-    "highlightedBadges": [
-      "2022",
-      "Member"
-    ]
-  },
-  {
-    "username": "RedMiner2005",
-    "name": "Pratyush Nair",
-    "title": "Developer",
-    "text": "Why am I a developer: 1. I know how to speak Dart, C++, Python, 2. I stare at a screen for an uncomfortable amount of time. 3. I don't know why my code works. Why aren't I a developer: No caffeine :)",
-    "avatar": "https://www.thepratyush.dev/assets/avatar.png",
-    "website": "https://www.thepratyush.dev",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/RedMiner2005"
-      },
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/pratyush-nair-783566278/"
-      },
-      {
-        "name": "email",
-        "link": "mailto:pratyushsunil@gmail.com"
-      }
-    ],
-    "badges": [
-      "App Dev"
-    ],
-    "highlightedBadges": [
-      "2023",
-      "Enthusiast"
-    ]
-  },
-  {
     "username": "IntelloManiac",
     "name": "Namit Bhutani",
     "title": "Developer",
