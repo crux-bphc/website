@@ -1043,5 +1043,38 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "voidEmerald",
+    "name": "Anirudh M",
+    "title": "Developer",
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Member"
+    ],
+    "text": "And I fell violently on my face",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/CosmoProgrammer"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/anirudh-m-675383122/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/VoidEmerald"
+      },
+      {
+        "name": "email",
+        "link": "mailto:anirudh.mss@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
