@@ -1500,5 +1500,38 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "aten2005",
+    "name": "Archisman Das",
+    "title": "President",
+    "badges": [
+      "Competitive Programming",
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Senate"
+    ],
+    "text": "I make computer go beep boop",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/aten2005"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/aten2005"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/aten2005"
+      },
+      {
+        "name": "email",
+        "link": "mailto:archisman0306@gmail.com"
+      }
+    ],
+    "website": "aten2005.dev"
   }
 ]
